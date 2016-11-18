@@ -111,9 +111,8 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/my/first/JavaWordCount.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="39" column="121" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="121" />
+              <caret line="7" column="59" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="e#1680#1883#0" expanded="true" />
                 <element signature="e#1882#1883#0" expanded="true" />
                 <element signature="e#2347#2581#0" expanded="true" />
@@ -125,21 +124,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JavaSparkSQLExample.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/my/first/sql/JavaSparkSQLExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="118" column="67" selection-start-line="118" selection-start-column="40" selection-end-line="118" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="JavaLogQuery.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/my/first/JavaLogQuery.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.12410072">
-              <caret line="79" column="98" selection-start-line="79" selection-start-column="19" selection-end-line="79" selection-end-column="19" />
+            <state vertical-scroll-proportion="3.038961">
+              <caret line="124" column="4" selection-start-line="124" selection-start-column="4" selection-end-line="128" selection-end-column="17" />
               <folding>
                 <element signature="e#4449#4683#0" expanded="true" />
                 <element signature="e#4682#4683#0" expanded="true" />
@@ -150,11 +139,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="JavaSparkSQLExample.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/my/first/sql/JavaSparkSQLExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="118" column="40" selection-start-line="118" selection-start-column="40" selection-end-line="118" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/my/first/Test.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="32" column="34" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+              <caret line="30" column="49" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -186,8 +185,9 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/my/first/streaming/JavaNetworkWordCount.java" />
         <option value="$PROJECT_DIR$/src/main/java/my/first/JavaWordCount.java" />
-        <option value="$PROJECT_DIR$/src/main/java/my/first/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/my/first/JavaLogQuery.java" />
+        <option value="$PROJECT_DIR$/src/main/java/my/first/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/my/first/MyLogQuery.java" />
       </list>
     </option>
   </component>
@@ -273,8 +273,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -384,7 +384,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
@@ -417,7 +417,7 @@
       <recent name="E:\work\workspace\spark-study\src\main\java\my\first\sql" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JavaLogQuery">
+  <component name="RunManager" selected="Application.MyLogQuery">
     <configuration default="false" name="JavaNetworkWordCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -429,26 +429,6 @@
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="192.168.1.26 9990" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="spark-study" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="JavaSparkPi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="my.first.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="my.first.JavaSparkPi" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -498,17 +478,37 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="JavaSparkSQLExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="my.first.sql.*" />
+          <option name="PATTERN" value="my.first.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="my.first.sql.JavaSparkSQLExample" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="MAIN_CLASS_NAME" value="my.first.Test" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="spark-study" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="MyLogQuery" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="my.first.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="my.first.MyLogQuery" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -964,18 +964,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.JavaNetworkWordCount" />
-      <item index="1" class="java.lang.String" itemvalue="Application.JavaSparkPi" />
-      <item index="2" class="java.lang.String" itemvalue="Application.JavaWordCount" />
-      <item index="3" class="java.lang.String" itemvalue="Application.JavaLogQuery" />
-      <item index="4" class="java.lang.String" itemvalue="Application.JavaSparkSQLExample" />
+      <item index="1" class="java.lang.String" itemvalue="Application.JavaWordCount" />
+      <item index="2" class="java.lang.String" itemvalue="Application.JavaLogQuery" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Test" />
+      <item index="4" class="java.lang.String" itemvalue="Application.MyLogQuery" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.JavaLogQuery" />
-        <item index="1" class="java.lang.String" itemvalue="Application.JavaWordCount" />
-        <item index="2" class="java.lang.String" itemvalue="Application.JavaNetworkWordCount" />
-        <item index="3" class="java.lang.String" itemvalue="Application.JavaSparkSQLExample" />
-        <item index="4" class="java.lang.String" itemvalue="Application.JavaSparkPi" />
+        <item index="0" class="java.lang.String" itemvalue="Application.MyLogQuery" />
+        <item index="1" class="java.lang.String" itemvalue="Application.JavaLogQuery" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Test" />
+        <item index="3" class="java.lang.String" itemvalue="Application.JavaWordCount" />
+        <item index="4" class="java.lang.String" itemvalue="Application.JavaNetworkWordCount" />
       </list>
     </recent_temporary>
   </component>
@@ -1008,15 +1008,16 @@
       <workItem from="1479181174584" duration="13710000" />
       <workItem from="1479258119282" duration="9062000" />
       <workItem from="1479367513731" duration="5158000" />
+      <workItem from="1479449347666" duration="11759000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93649000" />
+    <option name="totallyTimeSpent" value="105408000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="1" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1027,7 +1028,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31282052" sideWeight="0.5121029" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1785174" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5692308" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42393163" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22390318" sideWeight="0.5831904" order="0" side_tool="false" content_ui="combo" />
@@ -1082,7 +1083,7 @@
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.6020583" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22390318" sideWeight="0.5831904" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22390318" sideWeight="0.5831904" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -1112,19 +1113,11 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/first/WordCount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="22" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/my/first/JavaWordCount.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#1680#1883#0" expanded="true" />
             <element signature="e#1882#1883#0" expanded="true" />
             <element signature="e#2347#2581#0" expanded="true" />
@@ -1184,7 +1177,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#1680#1883#0" expanded="true" />
             <element signature="e#1882#1883#0" expanded="true" />
             <element signature="e#2347#2581#0" expanded="true" />
@@ -1244,7 +1236,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#1680#1883#0" expanded="true" />
             <element signature="e#1882#1883#0" expanded="true" />
             <element signature="e#2347#2581#0" expanded="true" />
@@ -1304,7 +1295,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#1680#1883#0" expanded="true" />
             <element signature="e#1882#1883#0" expanded="true" />
             <element signature="e#2347#2581#0" expanded="true" />
@@ -1364,7 +1354,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#1680#1883#0" expanded="true" />
             <element signature="e#1882#1883#0" expanded="true" />
             <element signature="e#2347#2581#0" expanded="true" />
@@ -1424,7 +1413,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="32" column="129" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#1680#1883#0" expanded="true" />
             <element signature="e#1882#1883#0" expanded="true" />
             <element signature="e#2347#2581#0" expanded="true" />
@@ -1599,24 +1587,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.10795455">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/first/sql/JavaSparkSQLExample.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/first/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="118" column="67" selection-start-line="118" selection-start-column="40" selection-end-line="118" selection-end-column="40" />
-          <folding />
+          <caret line="30" column="49" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/my/first/JavaWordCount.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="121" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="121" />
+          <caret line="7" column="59" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#1680#1883#0" expanded="true" />
             <element signature="e#1882#1883#0" expanded="true" />
             <element signature="e#2347#2581#0" expanded="true" />
@@ -1627,20 +1615,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/first/Test.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/first/sql/JavaSparkSQLExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="34" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+          <caret line="118" column="40" selection-start-line="118" selection-start-column="40" selection-end-line="118" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/first/MyLogQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5487013">
+          <caret line="31" column="104" selection-start-line="31" selection-start-column="60" selection-end-line="31" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1476#1879#0" expanded="true" />
+            <element signature="e#1878#1879#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/my/first/JavaLogQuery.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.12410072">
-          <caret line="79" column="98" selection-start-line="79" selection-start-column="19" selection-end-line="79" selection-end-column="19" />
+        <state vertical-scroll-proportion="3.038961">
+          <caret line="124" column="4" selection-start-line="124" selection-start-column="4" selection-end-line="128" selection-end-column="17" />
           <folding>
             <element signature="e#4449#4683#0" expanded="true" />
             <element signature="e#4682#4683#0" expanded="true" />
@@ -1661,7 +1659,6 @@
             <option name="proportions">
               <list>
                 <option value="0.31153846" />
-                <option value="0.6117318" />
               </list>
             </option>
           </splitter-proportions>
@@ -1708,7 +1705,8 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.31153846" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
