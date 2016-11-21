@@ -5,3 +5,4 @@
 .idea/
 spark-study.iml
 metastore_db/
+derby.log
