@@ -86,7 +86,7 @@ public class JavaSparkSQLExample {
   public static void main(String[] args) {
     // $example on:init_session$
     SparkSession spark = SparkSession
-      .builder().master("local")//                  .master("spark://192.168.1.26:7077")
+      .builder().master("local")//.master("spark://192.168.1.26:7077")
       .appName("Java Spark SQL basic example")
       .config("spark.some.config.option", "some-value")
       .getOrCreate();
