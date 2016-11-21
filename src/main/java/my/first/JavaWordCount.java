@@ -27,10 +27,10 @@ public class JavaWordCount {
 
     public static void main(String[] args) throws Exception {
 
-        if (args.length < 1) {
-            System.err.println("Usage: JavaWordCount <file>");
-            System.exit(1);
-        }
+//        if (args.length < 1) {
+//            System.err.println("Usage: JavaWordCount <file>");
+//            System.exit(1);
+//        }
 
         SparkSession spark = SparkSession
                 .builder().master("spark://192.168.1.26:7077")
