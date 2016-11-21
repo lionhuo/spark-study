@@ -1,0 +1,559 @@
+2016-11-17 10:30:52,220 [qtp1546335363-3909] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePublish, Dest value: true
+2016-11-17 10:30:52,221 [qtp1546335363-3909] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePublishVO.execDvr --> LivePublish.execDvr    VALUES: true --> true    MAPID: 
+2016-11-17 10:30:53,211 [qtp1546335363-3910] INFO  [cn.com.conversant.swiftcoder.service.impl.CallbackServiceImpl] - [Start Publish #Step 1] Begin To Callback The API /v1/stream/status/callback [Stream]: 120006_20161117103052
+2016-11-17 10:30:53,225 [qtp1546335363-3910] INFO  [cn.com.conversant.swiftcoder.service.impl.CallbackServiceImpl] - [Start Publish #Step 2] Register The StreamName to Redis [Stream]: 120006_20161117103052
+2016-11-17 10:31:01,179 [qtp1546335363-3910] INFO  [cn.com.conversant.swiftcoder.service.impl.CallbackServiceImpl] - [Stop Publish #Step 1] Begin To Callback The API /v1/stream/status/callback [Stream]: 120006_20161117103052
+2016-11-17 10:31:01,793 [qtp1546335363-3910] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Finish Publish]: {"operation":4,"streamName":"120006_20161117103052"}
+2016-11-17 10:31:13,475 [qtp1546335363-3909] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 00000000-3c66-e405-ffff-ffffa60ac1f5
+2016-11-17 10:31:13,475 [qtp1546335363-3909] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.deviceId --> LivePlay.deviceId    VALUES: 00000000-3c66-e405-ffff-ffffa60ac1f5 --> 00000000-3c66-e405-ffff-ffffa60ac1f5    MAPID: 
+2016-11-17 10:31:13,475 [qtp1546335363-3909] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 120006
+2016-11-17 10:31:13,475 [qtp1546335363-3909] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.viewerUid --> LivePlay.viewerUid    VALUES: 120006 --> 120006    MAPID: 
+2016-11-17 10:31:13,864 [qtp1546335363-3910] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110188_20161114172036 [URL]: null
+2016-11-17 10:45:54,413 [qtp1546335363-3924] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: ffffffff-d9d9-8516-0bb7-778d1591e6ce
+2016-11-17 10:45:54,414 [qtp1546335363-3924] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.deviceId --> LivePlay.deviceId    VALUES: ffffffff-d9d9-8516-0bb7-778d1591e6ce --> ffffffff-d9d9-8516-0bb7-778d1591e6ce    MAPID: 
+2016-11-17 10:45:54,414 [qtp1546335363-3924] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 110146
+2016-11-17 10:45:54,414 [qtp1546335363-3924] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.viewerUid --> LivePlay.viewerUid    VALUES: 110146 --> 110146    MAPID: 
+2016-11-17 10:47:00,162 [qtp1546335363-3924] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePublish, Dest value: true
+2016-11-17 10:47:00,163 [qtp1546335363-3924] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePublishVO.execDvr --> LivePublish.execDvr    VALUES: true --> true    MAPID: 
+2016-11-17 10:47:01,374 [qtp1546335363-3924] INFO  [cn.com.conversant.swiftcoder.service.impl.CallbackServiceImpl] - [Start Publish #Step 1] Begin To Callback The API /v1/stream/status/callback [Stream]: 110122_20161117104700
+2016-11-17 10:47:01,388 [qtp1546335363-3924] INFO  [cn.com.conversant.swiftcoder.service.impl.CallbackServiceImpl] - [Start Publish #Step 2] Register The StreamName to Redis [Stream]: 110122_20161117104700
+2016-11-17 10:50:33,027 [qtp1546335363-3928] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: ffffffff-b698-249f-0ef8-decf2be1979b
+2016-11-17 10:50:33,027 [qtp1546335363-3928] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.deviceId --> LivePlay.deviceId    VALUES: ffffffff-b698-249f-0ef8-decf2be1979b --> ffffffff-b698-249f-0ef8-decf2be1979b    MAPID: 
+2016-11-17 10:50:33,027 [qtp1546335363-3928] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 110097
+2016-11-17 10:50:33,027 [qtp1546335363-3928] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.viewerUid --> LivePlay.viewerUid    VALUES: 110097 --> 110097    MAPID: 
+2016-11-17 10:50:33,976 [qtp1546335363-3929] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110122_20161117104700 [URL]: rtmp://192.168.1.25/slv
+2016-11-17 10:55:32,231 [qtp1546335363-3933] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePublish, Dest value: true
+2016-11-17 10:55:32,231 [qtp1546335363-3933] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePublishVO.execDvr --> LivePublish.execDvr    VALUES: true --> true    MAPID: 
+2016-11-17 10:55:32,792 [qtp1546335363-3934] INFO  [cn.com.conversant.swiftcoder.service.impl.CallbackServiceImpl] - [Start Publish #Step 1] Begin To Callback The API /v1/stream/status/callback [Stream]: 110138_20161117105532
+2016-11-17 10:55:32,805 [qtp1546335363-3934] INFO  [cn.com.conversant.swiftcoder.service.impl.CallbackServiceImpl] - [Start Publish #Step 2] Register The StreamName to Redis [Stream]: 110138_20161117105532
+2016-11-17 10:55:38,469 [qtp1546335363-3934] INFO  [cn.com.conversant.swiftcoder.service.impl.CallbackServiceImpl] - [Stop Publish #Step 1] Begin To Callback The API /v1/stream/status/callback [Stream]: 110138_20161117105532
+2016-11-17 10:58:12,213 [qtp1546335363-3935] INFO  [cn.com.conversant.swiftcoder.service.impl.CallbackServiceImpl] - [Stop Publish #Step 1] Begin To Callback The API /v1/stream/status/callback [Stream]: 110122_20161117104700
+2016-11-17 10:58:12,338 [qtp1546335363-3936] INFO  [cn.com.conversant.swiftcoder.service.impl.CallbackServiceImpl] - [Start Publish #Step 1] Begin To Callback The API /v1/stream/status/callback [Stream]: 110122_20161117104700
+2016-11-17 10:58:12,349 [qtp1546335363-3936] INFO  [cn.com.conversant.swiftcoder.service.impl.CallbackServiceImpl] - [Start Publish #Step 2] Register The StreamName to Redis [Stream]: 110122_20161117104700
+2016-11-17 10:59:18,699 [qtp1546335363-3937] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Finish Publish]: {"operation":4,"streamName":"110138_20161117105532"}
+2016-11-17 10:59:46,666 [qtp1546335363-3938] INFO  [cn.com.conversant.swiftcoder.service.impl.CallbackServiceImpl] - [Start Publish #Step 1] Begin To Callback The API /v1/stream/status/callback [Stream]: 110138_20161117105532
+2016-11-17 10:59:46,678 [qtp1546335363-3938] INFO  [cn.com.conversant.swiftcoder.service.impl.CallbackServiceImpl] - [Start Publish #Step 2] Register The StreamName to Redis [Stream]: 110138_20161117105532
+2016-11-17 11:00:15,272 [qtp1546335363-3938] INFO  [cn.com.conversant.swiftcoder.service.impl.CallbackServiceImpl] - [Stop Publish #Step 1] Begin To Callback The API /v1/stream/status/callback [Stream]: 110138_20161117105532
+2016-11-17 11:03:18,627 [qtp1546335363-3941] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Finish Publish]: {"operation":4,"streamName":"110138_20161117105532"}
+2016-11-17 11:11:11,144 [qtp1546335363-3950] INFO  [cn.com.conversant.swiftcoder.service.impl.CallbackServiceImpl] - [Start Publish #Step 1] Begin To Callback The API /v1/stream/status/callback [Stream]: 110138_20161117105532
+2016-11-17 11:11:11,156 [qtp1546335363-3950] INFO  [cn.com.conversant.swiftcoder.service.impl.CallbackServiceImpl] - [Start Publish #Step 2] Register The StreamName to Redis [Stream]: 110138_20161117105532
+2016-11-17 11:18:22,188 [qtp1546335363-3957] INFO  [cn.com.conversant.swiftcoder.service.impl.CallbackServiceImpl] - [Stop Publish #Step 1] Begin To Callback The API /v1/stream/status/callback [Stream]: 110138_20161117105532
+2016-11-17 11:20:35,540 [qtp1546335363-3959] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePublish, Dest value: true
+2016-11-17 11:20:35,541 [qtp1546335363-3959] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePublishVO.execDvr --> LivePublish.execDvr    VALUES: true --> true    MAPID: 
+2016-11-17 11:20:36,191 [qtp1546335363-3960] INFO  [cn.com.conversant.swiftcoder.service.impl.CallbackServiceImpl] - [Start Publish #Step 1] Begin To Callback The API /v1/stream/status/callback [Stream]: 110138_20161117112035
+2016-11-17 11:20:36,203 [qtp1546335363-3960] INFO  [cn.com.conversant.swiftcoder.service.impl.CallbackServiceImpl] - [Start Publish #Step 2] Register The StreamName to Redis [Stream]: 110138_20161117112035
+2016-11-17 11:20:47,504 [qtp1546335363-3960] INFO  [cn.com.conversant.swiftcoder.service.impl.CallbackServiceImpl] - [Stop Publish #Step 1] Begin To Callback The API /v1/stream/status/callback [Stream]: 110138_20161117112035
+2016-11-17 11:22:18,663 [qtp1546335363-3959] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Finish Publish]: {"operation":4,"streamName":"110138_20161117105532"}
+2016-11-17 11:24:18,626 [qtp1546335363-3959] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Finish Publish]: {"operation":4,"streamName":"110138_20161117112035"}
+2016-11-17 11:24:43,897 [qtp1546335363-3959] INFO  [cn.com.conversant.swiftcoder.service.impl.CallbackServiceImpl] - [Start Publish #Step 1] Begin To Callback The API /v1/stream/status/callback [Stream]: 110138_20161117112035
+2016-11-17 11:24:43,910 [qtp1546335363-3959] INFO  [cn.com.conversant.swiftcoder.service.impl.CallbackServiceImpl] - [Start Publish #Step 2] Register The StreamName to Redis [Stream]: 110138_20161117112035
+2016-11-17 11:24:56,550 [qtp1546335363-3959] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Finish Publish]: {"operation":4,"streamName":"110138_20161117112035"}
+2016-11-17 11:24:56,627 [qtp1546335363-3966] INFO  [cn.com.conversant.swiftcoder.service.impl.CallbackServiceImpl] - [Stop Publish #Step 1] Begin To Callback The API /v1/stream/status/callback [Stream]: 110138_20161117112035
+2016-11-17 11:25:08,150 [qtp1546335363-3966] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePublish, Dest value: true
+2016-11-17 11:25:08,151 [qtp1546335363-3966] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePublishVO.execDvr --> LivePublish.execDvr    VALUES: true --> true    MAPID: 
+2016-11-17 11:25:08,709 [qtp1546335363-3959] INFO  [cn.com.conversant.swiftcoder.service.impl.CallbackServiceImpl] - [Start Publish #Step 1] Begin To Callback The API /v1/stream/status/callback [Stream]: 110138_20161117112508
+2016-11-17 11:25:08,722 [qtp1546335363-3959] INFO  [cn.com.conversant.swiftcoder.service.impl.CallbackServiceImpl] - [Start Publish #Step 2] Register The StreamName to Redis [Stream]: 110138_20161117112508
+2016-11-17 11:26:30,964 [qtp1546335363-3967] INFO  [cn.com.conversant.swiftcoder.service.impl.CallbackServiceImpl] - [Stop Publish #Step 1] Begin To Callback The API /v1/stream/status/callback [Stream]: 110138_20161117112508
+2016-11-17 11:28:13,050 [qtp1546335363-3967] INFO  [cn.com.conversant.swiftcoder.service.impl.CallbackServiceImpl] - [Stop Publish #Step 1] Begin To Callback The API /v1/stream/status/callback [Stream]: 110122_20161117104700
+2016-11-17 11:28:13,212 [qtp1546335363-3967] INFO  [cn.com.conversant.swiftcoder.service.impl.CallbackServiceImpl] - [Start Publish #Step 1] Begin To Callback The API /v1/stream/status/callback [Stream]: 110122_20161117104700
+2016-11-17 11:28:13,225 [qtp1546335363-3967] INFO  [cn.com.conversant.swiftcoder.service.impl.CallbackServiceImpl] - [Start Publish #Step 2] Register The StreamName to Redis [Stream]: 110122_20161117104700
+2016-11-17 11:28:18,657 [qtp1546335363-3967] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Finish Publish]: {"operation":4,"streamName":"110138_20161117112035"}
+2016-11-17 11:30:18,625 [qtp1546335363-3971] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Finish Publish]: {"operation":4,"streamName":"110138_20161117112508"}
+2016-11-17 11:37:35,300 [qtp1546335363-3979] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: ffffffff-b698-249f-0ef8-decf2be1979b
+2016-11-17 11:37:35,300 [qtp1546335363-3979] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.deviceId --> LivePlay.deviceId    VALUES: ffffffff-b698-249f-0ef8-decf2be1979b --> ffffffff-b698-249f-0ef8-decf2be1979b    MAPID: 
+2016-11-17 11:37:35,300 [qtp1546335363-3979] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 110097
+2016-11-17 11:37:35,300 [qtp1546335363-3979] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.viewerUid --> LivePlay.viewerUid    VALUES: 110097 --> 110097    MAPID: 
+2016-11-17 11:37:36,483 [qtp1546335363-3980] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110122_20161117104700 [URL]: rtmp://192.168.1.25/slv
+2016-11-17 11:38:27,071 [qtp1546335363-3981] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePublish, Dest value: true
+2016-11-17 11:38:27,072 [qtp1546335363-3981] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePublishVO.execDvr --> LivePublish.execDvr    VALUES: true --> true    MAPID: 
+2016-11-17 11:38:27,731 [qtp1546335363-3979] INFO  [cn.com.conversant.swiftcoder.service.impl.CallbackServiceImpl] - [Start Publish #Step 1] Begin To Callback The API /v1/stream/status/callback [Stream]: 110161_20161117113827
+2016-11-17 11:38:27,744 [qtp1546335363-3979] INFO  [cn.com.conversant.swiftcoder.service.impl.CallbackServiceImpl] - [Start Publish #Step 2] Register The StreamName to Redis [Stream]: 110161_20161117113827
+2016-11-17 11:38:45,481 [qtp1546335363-3979] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: ffffffff-dcb1-1cc7-2b16-ef552975f2e9
+2016-11-17 11:38:45,482 [qtp1546335363-3979] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.deviceId --> LivePlay.deviceId    VALUES: ffffffff-dcb1-1cc7-2b16-ef552975f2e9 --> ffffffff-dcb1-1cc7-2b16-ef552975f2e9    MAPID: 
+2016-11-17 11:38:45,482 [qtp1546335363-3979] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 110161
+2016-11-17 11:38:45,482 [qtp1546335363-3979] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.viewerUid --> LivePlay.viewerUid    VALUES: 110161 --> 110161    MAPID: 
+2016-11-17 11:38:46,526 [qtp1546335363-3981] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110161_20161117113827 [URL]: rtmp://192.168.1.25/slv
+2016-11-17 11:39:07,672 [qtp1546335363-3981] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePublish, Dest value: true
+2016-11-17 11:39:07,672 [qtp1546335363-3981] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePublishVO.execDvr --> LivePublish.execDvr    VALUES: true --> true    MAPID: 
+2016-11-17 11:39:10,174 [qtp1546335363-3979] INFO  [cn.com.conversant.swiftcoder.service.impl.CallbackServiceImpl] - [Start Publish #Step 1] Begin To Callback The API /v1/stream/status/callback [Stream]: 110180_20161117113907
+2016-11-17 11:39:10,186 [qtp1546335363-3979] INFO  [cn.com.conversant.swiftcoder.service.impl.CallbackServiceImpl] - [Start Publish #Step 2] Register The StreamName to Redis [Stream]: 110180_20161117113907
+2016-11-17 11:39:17,497 [qtp1546335363-3981] INFO  [cn.com.conversant.swiftcoder.service.impl.CallbackServiceImpl] - [Stop Publish #Step 1] Begin To Callback The API /v1/stream/status/callback [Stream]: 110180_20161117113907
+2016-11-17 11:39:18,165 [qtp1546335363-3981] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Finish Publish]: {"operation":4,"streamName":"110180_20161117113907"}
+2016-11-17 11:42:43,988 [qtp1546335363-3986] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: ffffffff-dd60-2903-ffff-ffffe56fc3e5
+2016-11-17 11:42:43,988 [qtp1546335363-3986] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.deviceId --> LivePlay.deviceId    VALUES: ffffffff-dd60-2903-ffff-ffffe56fc3e5 --> ffffffff-dd60-2903-ffff-ffffe56fc3e5    MAPID: 
+2016-11-17 11:42:43,988 [qtp1546335363-3986] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 110180
+2016-11-17 11:42:43,988 [qtp1546335363-3986] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.viewerUid --> LivePlay.viewerUid    VALUES: 110180 --> 110180    MAPID: 
+2016-11-17 11:42:44,217 [qtp1546335363-3985] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110122_20161117104700 [URL]: rtmp://192.168.1.25/slv
+2016-11-17 11:44:22,570 [qtp1546335363-3986] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110122_20161117104700 [URL]: rtmp://192.168.1.25/slv
+2016-11-17 11:44:54,986 [qtp1546335363-3987] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110161_20161117113827 [URL]: rtmp://192.168.1.25/slv
+2016-11-17 11:58:13,928 [qtp1546335363-3999] INFO  [cn.com.conversant.swiftcoder.service.impl.CallbackServiceImpl] - [Stop Publish #Step 1] Begin To Callback The API /v1/stream/status/callback [Stream]: 110122_20161117104700
+2016-11-17 11:58:14,110 [qtp1546335363-4001] INFO  [cn.com.conversant.swiftcoder.service.impl.CallbackServiceImpl] - [Start Publish #Step 1] Begin To Callback The API /v1/stream/status/callback [Stream]: 110122_20161117104700
+2016-11-17 11:58:14,129 [qtp1546335363-4001] INFO  [cn.com.conversant.swiftcoder.service.impl.CallbackServiceImpl] - [Start Publish #Step 2] Register The StreamName to Redis [Stream]: 110122_20161117104700
+2016-11-17 11:58:22,692 [qtp1546335363-4001] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePublish, Dest value: true
+2016-11-17 11:58:22,693 [qtp1546335363-4001] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePublishVO.execDvr --> LivePublish.execDvr    VALUES: true --> true    MAPID: 
+2016-11-17 11:58:24,795 [qtp1546335363-3999] INFO  [cn.com.conversant.swiftcoder.service.impl.CallbackServiceImpl] - [Start Publish #Step 1] Begin To Callback The API /v1/stream/status/callback [Stream]: 110097_20161117115822
+2016-11-17 11:58:24,812 [qtp1546335363-3999] INFO  [cn.com.conversant.swiftcoder.service.impl.CallbackServiceImpl] - [Start Publish #Step 2] Register The StreamName to Redis [Stream]: 110097_20161117115822
+2016-11-17 11:58:30,584 [qtp1546335363-3999] INFO  [cn.com.conversant.swiftcoder.service.impl.CallbackServiceImpl] - [Stop Publish #Step 1] Begin To Callback The API /v1/stream/status/callback [Stream]: 110122_20161117104700
+2016-11-17 11:58:32,326 [qtp1546335363-3999] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Finish Publish]: {"operation":4,"streamName":"110122_20161117104700"}
+2016-11-17 11:59:06,018 [qtp1546335363-3999] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: ffffffff-c28d-c55d-a336-ec900f17c6f5
+2016-11-17 11:59:06,018 [qtp1546335363-3999] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.deviceId --> LivePlay.deviceId    VALUES: ffffffff-c28d-c55d-a336-ec900f17c6f5 --> ffffffff-c28d-c55d-a336-ec900f17c6f5    MAPID: 
+2016-11-17 11:59:06,018 [qtp1546335363-3999] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 110122
+2016-11-17 11:59:06,018 [qtp1546335363-3999] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.viewerUid --> LivePlay.viewerUid    VALUES: 110122 --> 110122    MAPID: 
+2016-11-17 11:59:06,850 [qtp1546335363-3999] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110097_20161117115822 [URL]: rtmp://192.168.1.25/slv
+2016-11-17 12:01:23,622 [qtp1546335363-4004] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 00000000-1c44-02ba-ffff-ffffe0ead357
+2016-11-17 12:01:23,623 [qtp1546335363-4004] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.deviceId --> LivePlay.deviceId    VALUES: 00000000-1c44-02ba-ffff-ffffe0ead357 --> 00000000-1c44-02ba-ffff-ffffe0ead357    MAPID: 
+2016-11-17 12:01:23,623 [qtp1546335363-4004] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 120004
+2016-11-17 12:01:23,623 [qtp1546335363-4004] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.viewerUid --> LivePlay.viewerUid    VALUES: 120004 --> 120004    MAPID: 
+2016-11-17 12:01:24,231 [qtp1546335363-4005] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110161_20161117113827 [URL]: rtmp://192.168.1.25/slv
+2016-11-17 12:02:07,996 [qtp1546335363-4005] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 00000000-1c44-02ba-ffff-ffffe0ead357
+2016-11-17 12:02:07,996 [qtp1546335363-4005] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.deviceId --> LivePlay.deviceId    VALUES: 00000000-1c44-02ba-ffff-ffffe0ead357 --> 00000000-1c44-02ba-ffff-ffffe0ead357    MAPID: 
+2016-11-17 12:02:07,996 [qtp1546335363-4005] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 120004
+2016-11-17 12:02:07,997 [qtp1546335363-4005] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.viewerUid --> LivePlay.viewerUid    VALUES: 120004 --> 120004    MAPID: 
+2016-11-17 12:02:19,441 [qtp1546335363-4004] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110161_20161117113827 [URL]: rtmp://192.168.1.25/slv
+2016-11-17 12:02:40,828 [qtp1546335363-4005] INFO  [cn.com.conversant.swiftcoder.service.impl.CallbackServiceImpl] - [Stop Publish #Step 1] Begin To Callback The API /v1/stream/status/callback [Stream]: 110161_20161117113827
+2016-11-17 12:02:52,385 [qtp1546335363-4006] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110161_20161117113827 [URL]: rtmp://192.168.1.25/slv
+2016-11-17 12:03:27,637 [qtp1546335363-4006] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110161_20161117113827 [URL]: rtmp://192.168.1.25/slv
+2016-11-17 12:04:03,254 [qtp1546335363-4007] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110161_20161117113827 [URL]: rtmp://192.168.1.25/slv
+2016-11-17 12:04:38,482 [qtp1546335363-4008] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110161_20161117113827 [URL]: rtmp://192.168.1.25/slv
+2016-11-17 12:05:31,821 [qtp1546335363-4008] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 00000000-1c44-02ba-ffff-ffffe0ead357
+2016-11-17 12:05:31,822 [qtp1546335363-4008] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.deviceId --> LivePlay.deviceId    VALUES: 00000000-1c44-02ba-ffff-ffffe0ead357 --> 00000000-1c44-02ba-ffff-ffffe0ead357    MAPID: 
+2016-11-17 12:05:31,822 [qtp1546335363-4008] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 120004
+2016-11-17 12:05:31,822 [qtp1546335363-4008] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.viewerUid --> LivePlay.viewerUid    VALUES: 120004 --> 120004    MAPID: 
+2016-11-17 12:05:32,225 [qtp1546335363-4007] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110161_20161117113827 [URL]: rtmp://192.168.1.25/slv
+2016-11-17 12:05:49,103 [qtp1546335363-4007] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110161_20161117113827 [URL]: rtmp://192.168.1.25/slv
+2016-11-17 12:06:18,685 [qtp1546335363-4007] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Finish Publish]: {"operation":4,"streamName":"110161_20161117113827"}
+2016-11-17 12:06:20,405 [qtp1546335363-4009] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Finish Publish]: {"operation":4,"streamName":"110161_20161117113827"}
+2016-11-17 12:26:22,578 [qtp1546335363-4028] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 19957CC0-B0F2-440D-8EB1-DC45823176C8
+2016-11-17 12:26:22,578 [qtp1546335363-4028] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.deviceId --> LivePlay.deviceId    VALUES: 19957CC0-B0F2-440D-8EB1-DC45823176C8 --> 19957CC0-B0F2-440D-8EB1-DC45823176C8    MAPID: 
+2016-11-17 12:26:22,579 [qtp1546335363-4028] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 120005
+2016-11-17 12:26:22,579 [qtp1546335363-4028] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.viewerUid --> LivePlay.viewerUid    VALUES: 120005 --> 120005    MAPID: 
+2016-11-17 12:26:22,888 [qtp1546335363-4029] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110097_20161117115822 [URL]: rtmp://192.168.1.25/slv
+2016-11-17 12:26:48,411 [qtp1546335363-4028] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 4FF5987A-068E-48D5-A74A-9B2E659B2A6A
+2016-11-17 12:26:48,412 [qtp1546335363-4028] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.deviceId --> LivePlay.deviceId    VALUES: 4FF5987A-068E-48D5-A74A-9B2E659B2A6A --> 4FF5987A-068E-48D5-A74A-9B2E659B2A6A    MAPID: 
+2016-11-17 12:26:48,412 [qtp1546335363-4028] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 120005
+2016-11-17 12:26:48,412 [qtp1546335363-4028] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.viewerUid --> LivePlay.viewerUid    VALUES: 120005 --> 120005    MAPID: 
+2016-11-17 12:28:13,990 [qtp1546335363-4028] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110097_20161117115822 [URL]: rtmp://192.168.1.25/slv
+2016-11-17 12:28:42,092 [qtp1546335363-4028] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 8B5CE518-1D34-4893-BDEA-7D6AA47E9983
+2016-11-17 12:28:42,092 [qtp1546335363-4028] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.deviceId --> LivePlay.deviceId    VALUES: 8B5CE518-1D34-4893-BDEA-7D6AA47E9983 --> 8B5CE518-1D34-4893-BDEA-7D6AA47E9983    MAPID: 
+2016-11-17 12:28:42,092 [qtp1546335363-4028] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 120005
+2016-11-17 12:28:42,092 [qtp1546335363-4028] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.viewerUid --> LivePlay.viewerUid    VALUES: 120005 --> 120005    MAPID: 
+2016-11-17 12:28:42,236 [qtp1546335363-4031] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110097_20161117115822 [URL]: rtmp://192.168.1.25/slv
+2016-11-17 12:29:47,973 [qtp1546335363-4032] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 081ACDD8-76F5-4D50-8CD1-2E8936898846
+2016-11-17 12:29:47,973 [qtp1546335363-4032] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.deviceId --> LivePlay.deviceId    VALUES: 081ACDD8-76F5-4D50-8CD1-2E8936898846 --> 081ACDD8-76F5-4D50-8CD1-2E8936898846    MAPID: 
+2016-11-17 12:29:47,973 [qtp1546335363-4032] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 120005
+2016-11-17 12:29:47,973 [qtp1546335363-4032] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.viewerUid --> LivePlay.viewerUid    VALUES: 120005 --> 120005    MAPID: 
+2016-11-17 12:29:48,082 [qtp1546335363-4033] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 120004_20161116182327 [URL]: null
+2016-11-17 12:32:57,666 [qtp1546335363-4035] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePublish, Dest value: true
+2016-11-17 12:32:57,666 [qtp1546335363-4035] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePublishVO.execDvr --> LivePublish.execDvr    VALUES: true --> true    MAPID: 
+2016-11-17 12:32:58,244 [qtp1546335363-4036] INFO  [cn.com.conversant.swiftcoder.service.impl.CallbackServiceImpl] - [Start Publish #Step 1] Begin To Callback The API /v1/stream/status/callback [Stream]: 110161_20161117123257
+2016-11-17 12:32:58,257 [qtp1546335363-4036] INFO  [cn.com.conversant.swiftcoder.service.impl.CallbackServiceImpl] - [Start Publish #Step 2] Register The StreamName to Redis [Stream]: 110161_20161117123257
+2016-11-17 12:33:12,487 [qtp1546335363-4036] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 00000000-1c44-02ba-ffff-ffffe0ead357
+2016-11-17 12:33:12,487 [qtp1546335363-4036] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.deviceId --> LivePlay.deviceId    VALUES: 00000000-1c44-02ba-ffff-ffffe0ead357 --> 00000000-1c44-02ba-ffff-ffffe0ead357    MAPID: 
+2016-11-17 12:33:12,487 [qtp1546335363-4036] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 120004
+2016-11-17 12:33:12,487 [qtp1546335363-4036] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.viewerUid --> LivePlay.viewerUid    VALUES: 120004 --> 120004    MAPID: 
+2016-11-17 12:33:13,130 [qtp1546335363-4035] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110161_20161117123257 [URL]: rtmp://192.168.1.25/slv
+2016-11-17 12:33:14,991 [qtp1546335363-4035] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: ffffffff-dcb1-1cc7-2b16-ef552975f2e9
+2016-11-17 12:33:14,991 [qtp1546335363-4035] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.deviceId --> LivePlay.deviceId    VALUES: ffffffff-dcb1-1cc7-2b16-ef552975f2e9 --> ffffffff-dcb1-1cc7-2b16-ef552975f2e9    MAPID: 
+2016-11-17 12:33:14,991 [qtp1546335363-4035] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 110161
+2016-11-17 12:33:14,991 [qtp1546335363-4035] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.viewerUid --> LivePlay.viewerUid    VALUES: 110161 --> 110161    MAPID: 
+2016-11-17 12:33:15,999 [qtp1546335363-4036] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110161_20161117123257 [URL]: rtmp://192.168.1.25/slv
+2016-11-17 12:33:29,103 [qtp1546335363-4036] INFO  [cn.com.conversant.swiftcoder.service.impl.CallbackServiceImpl] - [Stop Publish #Step 1] Begin To Callback The API /v1/stream/status/callback [Stream]: 110161_20161117123257
+2016-11-17 12:34:03,177 [qtp1546335363-4036] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 00000000-1c44-02ba-ffff-ffffe0ead357
+2016-11-17 12:34:03,177 [qtp1546335363-4036] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.deviceId --> LivePlay.deviceId    VALUES: 00000000-1c44-02ba-ffff-ffffe0ead357 --> 00000000-1c44-02ba-ffff-ffffe0ead357    MAPID: 
+2016-11-17 12:34:03,177 [qtp1546335363-4036] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 120004
+2016-11-17 12:34:03,177 [qtp1546335363-4036] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.viewerUid --> LivePlay.viewerUid    VALUES: 120004 --> 120004    MAPID: 
+2016-11-17 12:34:15,450 [qtp1546335363-4037] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110161_20161117123257 [URL]: rtmp://192.168.1.25/slv
+2016-11-17 12:34:16,412 [qtp1546335363-4037] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110161_20161117123257 [URL]: rtmp://192.168.1.25/slv
+2016-11-17 12:35:26,071 [qtp1546335363-4036] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110161_20161117123257 [URL]: rtmp://192.168.1.25/slv
+2016-11-17 12:35:27,034 [qtp1546335363-4036] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110161_20161117123257 [URL]: rtmp://192.168.1.25/slv
+2016-11-17 12:36:37,709 [qtp1546335363-4039] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110161_20161117123257 [URL]: rtmp://192.168.1.25/slv
+2016-11-17 12:37:18,683 [qtp1546335363-4038] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Finish Publish]: {"operation":4,"streamName":"110161_20161117123257"}
+2016-11-17 12:37:19,008 [qtp1546335363-4040] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Finish Publish]: {"operation":4,"streamName":"110161_20161117123257"}
+2016-11-17 12:46:41,585 [qtp1546335363-4049] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: ffffffff-dd60-2903-ffff-ffffe56fc3e5
+2016-11-17 12:46:41,585 [qtp1546335363-4049] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.deviceId --> LivePlay.deviceId    VALUES: ffffffff-dd60-2903-ffff-ffffe56fc3e5 --> ffffffff-dd60-2903-ffff-ffffe56fc3e5    MAPID: 
+2016-11-17 12:46:41,585 [qtp1546335363-4049] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 110180
+2016-11-17 12:46:41,585 [qtp1546335363-4049] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.viewerUid --> LivePlay.viewerUid    VALUES: 110180 --> 110180    MAPID: 
+2016-11-17 12:46:41,710 [qtp1546335363-4050] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110097_20161117115822 [URL]: rtmp://192.168.1.25/slv
+2016-11-17 12:50:54,087 [qtp1546335363-4053] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110097_20161117115822 [URL]: rtmp://192.168.1.25/slv
+2016-11-17 12:52:20,693 [qtp1546335363-4054] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: ffffffff-dd60-2903-ffff-ffffe56fc3e5
+2016-11-17 12:52:20,694 [qtp1546335363-4054] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.deviceId --> LivePlay.deviceId    VALUES: ffffffff-dd60-2903-ffff-ffffe56fc3e5 --> ffffffff-dd60-2903-ffff-ffffe56fc3e5    MAPID: 
+2016-11-17 12:52:20,694 [qtp1546335363-4054] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 110180
+2016-11-17 12:52:20,694 [qtp1546335363-4054] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.viewerUid --> LivePlay.viewerUid    VALUES: 110180 --> 110180    MAPID: 
+2016-11-17 12:52:21,038 [qtp1546335363-4055] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110097_20161117115822 [URL]: rtmp://192.168.1.25/slv
+2016-11-17 12:58:14,780 [qtp1546335363-4060] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110097_20161117115822 [URL]: rtmp://192.168.1.25/slv
+2016-11-17 12:58:44,082 [qtp1546335363-4060] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePublish, Dest value: true
+2016-11-17 12:58:44,082 [qtp1546335363-4060] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePublishVO.execDvr --> LivePublish.execDvr    VALUES: true --> true    MAPID: 
+2016-11-17 12:58:44,474 [qtp1546335363-4061] INFO  [cn.com.conversant.swiftcoder.service.impl.CallbackServiceImpl] - [Start Publish #Step 1] Begin To Callback The API /v1/stream/status/callback [Stream]: 110180_20161117125844
+2016-11-17 12:58:44,487 [qtp1546335363-4061] INFO  [cn.com.conversant.swiftcoder.service.impl.CallbackServiceImpl] - [Start Publish #Step 2] Register The StreamName to Redis [Stream]: 110180_20161117125844
+2016-11-17 13:03:13,357 [qtp1546335363-4063] INFO  [cn.com.conversant.swiftcoder.service.impl.CallbackServiceImpl] - [Stop Publish #Step 1] Begin To Callback The API /v1/stream/status/callback [Stream]: 110180_20161117125844
+2016-11-17 13:03:13,972 [qtp1546335363-4065] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Finish Publish]: {"operation":4,"streamName":"110180_20161117125844"}
+2016-11-17 13:28:15,559 [qtp1546335363-4089] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110097_20161117115822 [URL]: rtmp://192.168.1.25/slv
+2016-11-17 13:58:16,460 [qtp1546335363-4118] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110097_20161117115822 [URL]: rtmp://192.168.1.25/slv
+2016-11-17 14:13:00,625 [qtp1546335363-4133] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePublish, Dest value: true
+2016-11-17 14:13:00,626 [qtp1546335363-4133] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePublishVO.execDvr --> LivePublish.execDvr    VALUES: true --> true    MAPID: 
+2016-11-17 14:13:01,184 [qtp1546335363-4132] INFO  [cn.com.conversant.swiftcoder.service.impl.CallbackServiceImpl] - [Start Publish #Step 1] Begin To Callback The API /v1/stream/status/callback [Stream]: 110161_20161117141300
+2016-11-17 14:13:01,197 [qtp1546335363-4132] INFO  [cn.com.conversant.swiftcoder.service.impl.CallbackServiceImpl] - [Start Publish #Step 2] Register The StreamName to Redis [Stream]: 110161_20161117141300
+2016-11-17 14:13:19,858 [qtp1546335363-4132] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: ffffffff-dcb1-1cc7-2b16-ef552975f2e9
+2016-11-17 14:13:19,858 [qtp1546335363-4132] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.deviceId --> LivePlay.deviceId    VALUES: ffffffff-dcb1-1cc7-2b16-ef552975f2e9 --> ffffffff-dcb1-1cc7-2b16-ef552975f2e9    MAPID: 
+2016-11-17 14:13:19,859 [qtp1546335363-4132] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 110161
+2016-11-17 14:13:19,859 [qtp1546335363-4132] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.viewerUid --> LivePlay.viewerUid    VALUES: 110161 --> 110161    MAPID: 
+2016-11-17 14:13:20,614 [qtp1546335363-4133] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110161_20161117141300 [URL]: rtmp://192.168.1.25/slv
+2016-11-17 14:19:27,036 [qtp1546335363-4139] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: ffffffff-c28d-c55d-a336-ec900f17c6f5
+2016-11-17 14:19:27,036 [qtp1546335363-4139] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.deviceId --> LivePlay.deviceId    VALUES: ffffffff-c28d-c55d-a336-ec900f17c6f5 --> ffffffff-c28d-c55d-a336-ec900f17c6f5    MAPID: 
+2016-11-17 14:19:27,036 [qtp1546335363-4139] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 110122
+2016-11-17 14:19:27,036 [qtp1546335363-4139] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.viewerUid --> LivePlay.viewerUid    VALUES: 110122 --> 110122    MAPID: 
+2016-11-17 14:19:27,989 [qtp1546335363-4138] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110097_20161117115822 [URL]: rtmp://192.168.1.25/slv
+2016-11-17 14:19:54,552 [qtp1546335363-4138] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110161_20161117141300 [URL]: rtmp://192.168.1.25/slv
+2016-11-17 14:26:07,200 [qtp1546335363-4144] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: ffffffff-dcb1-1cc7-2b16-ef552975f2e9
+2016-11-17 14:26:07,200 [qtp1546335363-4144] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.deviceId --> LivePlay.deviceId    VALUES: ffffffff-dcb1-1cc7-2b16-ef552975f2e9 --> ffffffff-dcb1-1cc7-2b16-ef552975f2e9    MAPID: 
+2016-11-17 14:26:07,200 [qtp1546335363-4144] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 110161
+2016-11-17 14:26:07,200 [qtp1546335363-4144] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.viewerUid --> LivePlay.viewerUid    VALUES: 110161 --> 110161    MAPID: 
+2016-11-17 14:26:08,612 [qtp1546335363-4145] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110161_20161117141300 [URL]: rtmp://192.168.1.25/slv
+2016-11-17 14:26:51,442 [qtp1546335363-4144] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: C2FEAB26-0381-4253-9F3F-D8BDD60ADA49
+2016-11-17 14:26:51,442 [qtp1546335363-4144] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.deviceId --> LivePlay.deviceId    VALUES: C2FEAB26-0381-4253-9F3F-D8BDD60ADA49 --> C2FEAB26-0381-4253-9F3F-D8BDD60ADA49    MAPID: 
+2016-11-17 14:26:51,442 [qtp1546335363-4144] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 110138
+2016-11-17 14:26:51,442 [qtp1546335363-4144] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.viewerUid --> LivePlay.viewerUid    VALUES: 110138 --> 110138    MAPID: 
+2016-11-17 14:26:51,752 [qtp1546335363-4146] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110161_20161117141300 [URL]: rtmp://192.168.1.25/slv
+2016-11-17 14:27:09,261 [qtp1546335363-4146] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110161_20161117141300 [URL]: rtmp://192.168.1.25/slv
+2016-11-17 14:27:20,462 [qtp1546335363-4146] INFO  [cn.com.conversant.swiftcoder.service.impl.CallbackServiceImpl] - [Stop Publish #Step 1] Begin To Callback The API /v1/stream/status/callback [Stream]: 110097_20161117115822
+2016-11-17 14:27:32,002 [qtp1546335363-4147] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110097_20161117115822 [URL]: rtmp://192.168.1.25/slv
+2016-11-17 14:28:25,752 [qtp1546335363-4147] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 4DE53F05-27D4-4294-9580-48E6B54193F0
+2016-11-17 14:28:25,752 [qtp1546335363-4147] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.deviceId --> LivePlay.deviceId    VALUES: 4DE53F05-27D4-4294-9580-48E6B54193F0 --> 4DE53F05-27D4-4294-9580-48E6B54193F0    MAPID: 
+2016-11-17 14:28:25,753 [qtp1546335363-4147] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 110138
+2016-11-17 14:28:25,753 [qtp1546335363-4147] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.viewerUid --> LivePlay.viewerUid    VALUES: 110138 --> 110138    MAPID: 
+2016-11-17 14:28:25,856 [qtp1546335363-4144] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110161_20161117141300 [URL]: rtmp://192.168.1.25/slv
+2016-11-17 14:28:42,722 [qtp1546335363-4147] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110097_20161117115822 [URL]: rtmp://192.168.1.25/slv
+2016-11-17 14:29:20,885 [qtp1546335363-4148] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: EE5121D0-B3DF-414A-A18C-3249A0DD34E4
+2016-11-17 14:29:20,885 [qtp1546335363-4148] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.deviceId --> LivePlay.deviceId    VALUES: EE5121D0-B3DF-414A-A18C-3249A0DD34E4 --> EE5121D0-B3DF-414A-A18C-3249A0DD34E4    MAPID: 
+2016-11-17 14:29:20,885 [qtp1546335363-4148] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 110138
+2016-11-17 14:29:20,885 [qtp1546335363-4148] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.viewerUid --> LivePlay.viewerUid    VALUES: 110138 --> 110138    MAPID: 
+2016-11-17 14:29:21,503 [qtp1546335363-4148] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Finish Publish]: {"operation":4,"streamName":"110097_20161117115822"}
+2016-11-17 14:29:21,710 [qtp1546335363-4147] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePublish, Dest value: true
+2016-11-17 14:29:21,710 [qtp1546335363-4147] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePublishVO.execDvr --> LivePublish.execDvr    VALUES: true --> true    MAPID: 
+2016-11-17 14:29:37,338 [qtp1546335363-4147] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110161_20161117141300 [URL]: rtmp://192.168.1.25/slv
+2016-11-17 14:29:53,786 [qtp1546335363-4147] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110097_20161117115822 [URL]: rtmp://192.168.1.25/slv
+2016-11-17 14:30:24,177 [qtp1546335363-4147] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 206EC032-E0EF-469D-8765-E0ED0CA11DEE
+2016-11-17 14:30:24,177 [qtp1546335363-4147] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.deviceId --> LivePlay.deviceId    VALUES: 206EC032-E0EF-469D-8765-E0ED0CA11DEE --> 206EC032-E0EF-469D-8765-E0ED0CA11DEE    MAPID: 
+2016-11-17 14:30:24,178 [qtp1546335363-4147] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 110138
+2016-11-17 14:30:24,178 [qtp1546335363-4147] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.viewerUid --> LivePlay.viewerUid    VALUES: 110138 --> 110138    MAPID: 
+2016-11-17 14:31:04,631 [qtp1546335363-4151] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110097_20161117115822 [URL]: rtmp://192.168.1.25/slv
+2016-11-17 14:31:28,150 [qtp1546335363-4151] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 100164B6-F466-4729-9124-2EE8CE4472A9
+2016-11-17 14:31:28,150 [qtp1546335363-4151] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.deviceId --> LivePlay.deviceId    VALUES: 100164B6-F466-4729-9124-2EE8CE4472A9 --> 100164B6-F466-4729-9124-2EE8CE4472A9    MAPID: 
+2016-11-17 14:31:28,150 [qtp1546335363-4151] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 110138
+2016-11-17 14:31:28,151 [qtp1546335363-4151] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.viewerUid --> LivePlay.viewerUid    VALUES: 110138 --> 110138    MAPID: 
+2016-11-17 14:31:28,286 [qtp1546335363-4147] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110161_20161117141300 [URL]: rtmp://192.168.1.25/slv
+2016-11-17 14:32:15,504 [qtp1546335363-4151] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110097_20161117115822 [URL]: rtmp://192.168.1.25/slv
+2016-11-17 14:32:30,599 [qtp1546335363-4151] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110161_20161117141300 [URL]: rtmp://192.168.1.25/slv
+2016-11-17 14:33:52,884 [qtp1546335363-4153] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePublish, Dest value: true
+2016-11-17 14:33:52,884 [qtp1546335363-4153] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePublishVO.execDvr --> LivePublish.execDvr    VALUES: true --> true    MAPID: 
+2016-11-17 14:34:01,079 [qtp1546335363-4154] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Finish Publish]: {"operation":4,"streamName":"110122_20161117143352"}
+2016-11-17 14:34:09,234 [qtp1546335363-4153] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: ffffffff-c28d-c55d-a336-ec900f17c6f5
+2016-11-17 14:34:09,234 [qtp1546335363-4153] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.deviceId --> LivePlay.deviceId    VALUES: ffffffff-c28d-c55d-a336-ec900f17c6f5 --> ffffffff-c28d-c55d-a336-ec900f17c6f5    MAPID: 
+2016-11-17 14:34:09,234 [qtp1546335363-4153] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 110122
+2016-11-17 14:34:09,234 [qtp1546335363-4153] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.viewerUid --> LivePlay.viewerUid    VALUES: 110122 --> 110122    MAPID: 
+2016-11-17 14:34:38,618 [qtp1546335363-4153] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: ffffffff-dcb1-1cc7-2b16-ef552975f2e9
+2016-11-17 14:34:38,618 [qtp1546335363-4153] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.deviceId --> LivePlay.deviceId    VALUES: ffffffff-dcb1-1cc7-2b16-ef552975f2e9 --> ffffffff-dcb1-1cc7-2b16-ef552975f2e9    MAPID: 
+2016-11-17 14:34:38,618 [qtp1546335363-4153] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 110161
+2016-11-17 14:34:38,618 [qtp1546335363-4153] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.viewerUid --> LivePlay.viewerUid    VALUES: 110161 --> 110161    MAPID: 
+2016-11-17 14:34:39,964 [qtp1546335363-4154] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110161_20161117141300 [URL]: rtmp://192.168.1.25/slv
+2016-11-17 14:35:48,922 [qtp1546335363-4153] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110161_20161117141300 [URL]: rtmp://192.168.1.25/slv
+2016-11-17 14:36:35,811 [qtp1546335363-4156] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePublish, Dest value: true
+2016-11-17 14:36:35,811 [qtp1546335363-4156] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePublishVO.execDvr --> LivePublish.execDvr    VALUES: true --> true    MAPID: 
+2016-11-17 14:36:36,094 [qtp1546335363-4157] INFO  [cn.com.conversant.swiftcoder.service.impl.CallbackServiceImpl] - [Start Publish #Step 1] Begin To Callback The API /v1/stream/status/callback [Stream]: 110180_20161117143635
+2016-11-17 14:36:36,109 [qtp1546335363-4157] INFO  [cn.com.conversant.swiftcoder.service.impl.CallbackServiceImpl] - [Start Publish #Step 2] Register The StreamName to Redis [Stream]: 110180_20161117143635
+2016-11-17 14:41:29,914 [qtp1546335363-4161] INFO  [cn.com.conversant.swiftcoder.service.impl.CallbackServiceImpl] - [Stop Publish #Step 1] Begin To Callback The API /v1/stream/status/callback [Stream]: 110180_20161117143635
+2016-11-17 14:41:30,529 [qtp1546335363-4161] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Finish Publish]: {"operation":4,"streamName":"110180_20161117143635"}
+2016-11-17 14:43:21,631 [qtp1546335363-4164] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 16FF2A31-3E0F-4314-B24B-98392050775D
+2016-11-17 14:43:21,632 [qtp1546335363-4164] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.deviceId --> LivePlay.deviceId    VALUES: 16FF2A31-3E0F-4314-B24B-98392050775D --> 16FF2A31-3E0F-4314-B24B-98392050775D    MAPID: 
+2016-11-17 14:43:21,632 [qtp1546335363-4164] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 110138
+2016-11-17 14:43:21,632 [qtp1546335363-4164] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.viewerUid --> LivePlay.viewerUid    VALUES: 110138 --> 110138    MAPID: 
+2016-11-17 14:43:22,001 [qtp1546335363-4165] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110161_20161117141300 [URL]: rtmp://192.168.1.25/slv
+2016-11-17 14:44:23,154 [qtp1546335363-4164] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: ffffffff-dcb1-1cc7-2b16-ef552975f2e9
+2016-11-17 14:44:23,154 [qtp1546335363-4164] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.deviceId --> LivePlay.deviceId    VALUES: ffffffff-dcb1-1cc7-2b16-ef552975f2e9 --> ffffffff-dcb1-1cc7-2b16-ef552975f2e9    MAPID: 
+2016-11-17 14:44:23,155 [qtp1546335363-4164] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 110161
+2016-11-17 14:44:23,155 [qtp1546335363-4164] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.viewerUid --> LivePlay.viewerUid    VALUES: 110161 --> 110161    MAPID: 
+2016-11-17 14:44:24,626 [qtp1546335363-4166] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110161_20161117141300 [URL]: rtmp://192.168.1.25/slv
+2016-11-17 14:44:24,972 [qtp1546335363-4166] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110161_20161117141300 [URL]: rtmp://192.168.1.25/slv
+2016-11-17 14:51:39,414 [qtp1546335363-4170] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: ffffffff-dcb1-1cc7-2b16-ef552975f2e9
+2016-11-17 14:51:39,414 [qtp1546335363-4170] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.deviceId --> LivePlay.deviceId    VALUES: ffffffff-dcb1-1cc7-2b16-ef552975f2e9 --> ffffffff-dcb1-1cc7-2b16-ef552975f2e9    MAPID: 
+2016-11-17 14:51:39,414 [qtp1546335363-4170] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 110161
+2016-11-17 14:51:39,415 [qtp1546335363-4170] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.viewerUid --> LivePlay.viewerUid    VALUES: 110161 --> 110161    MAPID: 
+2016-11-17 14:51:40,574 [qtp1546335363-4172] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePublish, Dest value: true
+2016-11-17 14:51:40,575 [qtp1546335363-4172] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePublishVO.execDvr --> LivePublish.execDvr    VALUES: true --> true    MAPID: 
+2016-11-17 14:51:41,073 [qtp1546335363-4170] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110161_20161117141300 [URL]: rtmp://192.168.1.25/slv
+2016-11-17 14:51:41,345 [qtp1546335363-4170] INFO  [cn.com.conversant.swiftcoder.service.impl.CallbackServiceImpl] - [Start Publish #Step 1] Begin To Callback The API /v1/stream/status/callback [Stream]: 110129_20161117145140
+2016-11-17 14:51:41,358 [qtp1546335363-4170] INFO  [cn.com.conversant.swiftcoder.service.impl.CallbackServiceImpl] - [Start Publish #Step 2] Register The StreamName to Redis [Stream]: 110129_20161117145140
+2016-11-17 14:53:26,937 [qtp1546335363-4173] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: A0B397F7-5AD0-4608-80B2-FA156DFF79A8
+2016-11-17 14:53:26,937 [qtp1546335363-4173] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.deviceId --> LivePlay.deviceId    VALUES: A0B397F7-5AD0-4608-80B2-FA156DFF79A8 --> A0B397F7-5AD0-4608-80B2-FA156DFF79A8    MAPID: 
+2016-11-17 14:53:26,938 [qtp1546335363-4173] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 110138
+2016-11-17 14:53:26,938 [qtp1546335363-4173] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.viewerUid --> LivePlay.viewerUid    VALUES: 110138 --> 110138    MAPID: 
+2016-11-17 14:53:27,166 [qtp1546335363-4174] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110129_20161117145140 [URL]: rtmp://192.168.1.25/slv
+2016-11-17 15:04:43,436 [qtp1546335363-4184] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: ffffffff-dcb1-1cc7-2b16-ef552975f2e9
+2016-11-17 15:04:43,437 [qtp1546335363-4184] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.deviceId --> LivePlay.deviceId    VALUES: ffffffff-dcb1-1cc7-2b16-ef552975f2e9 --> ffffffff-dcb1-1cc7-2b16-ef552975f2e9    MAPID: 
+2016-11-17 15:04:43,437 [qtp1546335363-4184] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 110161
+2016-11-17 15:04:43,437 [qtp1546335363-4184] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.viewerUid --> LivePlay.viewerUid    VALUES: 110161 --> 110161    MAPID: 
+2016-11-17 15:04:52,002 [qtp1546335363-4185] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110129_20161117145140 [URL]: rtmp://192.168.1.25/slv
+2016-11-17 15:05:23,934 [qtp1546335363-4186] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 36DB6F01-279E-4B7C-9ABE-D91C249DFDBE
+2016-11-17 15:05:23,935 [qtp1546335363-4186] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.deviceId --> LivePlay.deviceId    VALUES: 36DB6F01-279E-4B7C-9ABE-D91C249DFDBE --> 36DB6F01-279E-4B7C-9ABE-D91C249DFDBE    MAPID: 
+2016-11-17 15:05:23,935 [qtp1546335363-4186] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 110138
+2016-11-17 15:05:23,935 [qtp1546335363-4186] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.viewerUid --> LivePlay.viewerUid    VALUES: 110138 --> 110138    MAPID: 
+2016-11-17 15:05:24,225 [qtp1546335363-4184] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110129_20161117145140 [URL]: rtmp://192.168.1.25/slv
+2016-11-17 15:06:37,598 [qtp1546335363-4186] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: ffffffff-dcb1-1cc7-2b16-ef552975f2e9
+2016-11-17 15:06:37,598 [qtp1546335363-4186] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.deviceId --> LivePlay.deviceId    VALUES: ffffffff-dcb1-1cc7-2b16-ef552975f2e9 --> ffffffff-dcb1-1cc7-2b16-ef552975f2e9    MAPID: 
+2016-11-17 15:06:37,599 [qtp1546335363-4186] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 110161
+2016-11-17 15:06:37,599 [qtp1546335363-4186] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.viewerUid --> LivePlay.viewerUid    VALUES: 110161 --> 110161    MAPID: 
+2016-11-17 15:06:47,619 [qtp1546335363-4187] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110129_20161117145140 [URL]: rtmp://192.168.1.25/slv
+2016-11-17 15:07:31,314 [qtp1546335363-4186] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: ffffffff-892e-6571-b6af-12a3155ada8b
+2016-11-17 15:07:31,314 [qtp1546335363-4186] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.deviceId --> LivePlay.deviceId    VALUES: ffffffff-892e-6571-b6af-12a3155ada8b --> ffffffff-892e-6571-b6af-12a3155ada8b    MAPID: 
+2016-11-17 15:07:31,314 [qtp1546335363-4186] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 110149
+2016-11-17 15:07:31,315 [qtp1546335363-4186] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.viewerUid --> LivePlay.viewerUid    VALUES: 110149 --> 110149    MAPID: 
+2016-11-17 15:17:15,397 [qtp1546335363-4196] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: ffffffff-dcb1-1cc7-2b16-ef552975f2e9
+2016-11-17 15:17:15,397 [qtp1546335363-4196] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.deviceId --> LivePlay.deviceId    VALUES: ffffffff-dcb1-1cc7-2b16-ef552975f2e9 --> ffffffff-dcb1-1cc7-2b16-ef552975f2e9    MAPID: 
+2016-11-17 15:17:15,398 [qtp1546335363-4196] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 110161
+2016-11-17 15:17:15,398 [qtp1546335363-4196] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.viewerUid --> LivePlay.viewerUid    VALUES: 110161 --> 110161    MAPID: 
+2016-11-17 15:17:16,492 [qtp1546335363-4197] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110161_20161117141300 [URL]: rtmp://192.168.1.25/slv
+2016-11-17 15:18:30,952 [qtp1546335363-4198] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110161_20161117141300 [URL]: rtmp://192.168.1.25/slv
+2016-11-17 15:35:46,959 [qtp1546335363-4213] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: ffffffff-dcb1-1cc7-2b16-ef552975f2e9
+2016-11-17 15:35:46,960 [qtp1546335363-4213] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.deviceId --> LivePlay.deviceId    VALUES: ffffffff-dcb1-1cc7-2b16-ef552975f2e9 --> ffffffff-dcb1-1cc7-2b16-ef552975f2e9    MAPID: 
+2016-11-17 15:35:46,960 [qtp1546335363-4213] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 110161
+2016-11-17 15:35:46,960 [qtp1546335363-4213] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.viewerUid --> LivePlay.viewerUid    VALUES: 110161 --> 110161    MAPID: 
+2016-11-17 15:35:48,870 [qtp1546335363-4214] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110161_20161117141300 [URL]: rtmp://192.168.1.25/slv
+2016-11-17 15:36:52,622 [qtp1546335363-4213] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110161_20161117141300 [URL]: rtmp://192.168.1.25/slv
+2016-11-17 15:39:55,290 [qtp1546335363-4217] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: ffffffff-dcb1-1cc7-2b16-ef552975f2e9
+2016-11-17 15:39:55,290 [qtp1546335363-4217] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.deviceId --> LivePlay.deviceId    VALUES: ffffffff-dcb1-1cc7-2b16-ef552975f2e9 --> ffffffff-dcb1-1cc7-2b16-ef552975f2e9    MAPID: 
+2016-11-17 15:39:55,290 [qtp1546335363-4217] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 110161
+2016-11-17 15:39:55,290 [qtp1546335363-4217] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.viewerUid --> LivePlay.viewerUid    VALUES: 110161 --> 110161    MAPID: 
+2016-11-17 15:39:56,976 [qtp1546335363-4218] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110161_20161117141300 [URL]: rtmp://192.168.1.25/slv
+2016-11-17 15:46:22,362 [qtp1546335363-4223] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: ffffffff-dcb1-1cc7-2b16-ef552975f2e9
+2016-11-17 15:46:22,362 [qtp1546335363-4223] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.deviceId --> LivePlay.deviceId    VALUES: ffffffff-dcb1-1cc7-2b16-ef552975f2e9 --> ffffffff-dcb1-1cc7-2b16-ef552975f2e9    MAPID: 
+2016-11-17 15:46:22,363 [qtp1546335363-4223] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 110161
+2016-11-17 15:46:22,363 [qtp1546335363-4223] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.viewerUid --> LivePlay.viewerUid    VALUES: 110161 --> 110161    MAPID: 
+2016-11-17 15:46:24,089 [qtp1546335363-4224] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110161_20161117141300 [URL]: rtmp://192.168.1.25/slv
+2016-11-17 15:49:37,920 [qtp1546335363-4227] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 5ECAADE9-FA09-413E-B932-59D30D8505A4
+2016-11-17 15:49:37,920 [qtp1546335363-4227] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.deviceId --> LivePlay.deviceId    VALUES: 5ECAADE9-FA09-413E-B932-59D30D8505A4 --> 5ECAADE9-FA09-413E-B932-59D30D8505A4    MAPID: 
+2016-11-17 15:49:37,921 [qtp1546335363-4227] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 110138
+2016-11-17 15:49:37,921 [qtp1546335363-4227] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.viewerUid --> LivePlay.viewerUid    VALUES: 110138 --> 110138    MAPID: 
+2016-11-17 15:49:38,457 [qtp1546335363-4228] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110129_20161117145140 [URL]: rtmp://192.168.1.25/slv
+2016-11-17 15:49:46,549 [qtp1546335363-4228] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: F8E31C93-4A53-4522-8C5A-C8138F63E2CA
+2016-11-17 15:49:46,549 [qtp1546335363-4228] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.deviceId --> LivePlay.deviceId    VALUES: F8E31C93-4A53-4522-8C5A-C8138F63E2CA --> F8E31C93-4A53-4522-8C5A-C8138F63E2CA    MAPID: 
+2016-11-17 15:49:46,549 [qtp1546335363-4228] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 110138
+2016-11-17 15:49:46,549 [qtp1546335363-4228] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.viewerUid --> LivePlay.viewerUid    VALUES: 110138 --> 110138    MAPID: 
+2016-11-17 15:50:00,924 [qtp1546335363-4227] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: D845F348-1045-4DAC-9CB6-A44074AF6883
+2016-11-17 15:50:00,925 [qtp1546335363-4227] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.deviceId --> LivePlay.deviceId    VALUES: D845F348-1045-4DAC-9CB6-A44074AF6883 --> D845F348-1045-4DAC-9CB6-A44074AF6883    MAPID: 
+2016-11-17 15:50:00,925 [qtp1546335363-4227] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 110138
+2016-11-17 15:50:00,925 [qtp1546335363-4227] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.viewerUid --> LivePlay.viewerUid    VALUES: 110138 --> 110138    MAPID: 
+2016-11-17 15:54:13,817 [qtp1546335363-4230] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: EB8D79E0-46CB-44DE-B149-0BE9E231999E
+2016-11-17 15:54:13,817 [qtp1546335363-4230] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.deviceId --> LivePlay.deviceId    VALUES: EB8D79E0-46CB-44DE-B149-0BE9E231999E --> EB8D79E0-46CB-44DE-B149-0BE9E231999E    MAPID: 
+2016-11-17 15:54:13,817 [qtp1546335363-4230] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 110138
+2016-11-17 15:54:13,817 [qtp1546335363-4230] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.viewerUid --> LivePlay.viewerUid    VALUES: 110138 --> 110138    MAPID: 
+2016-11-17 15:54:13,929 [qtp1546335363-4232] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110097_20161117142921 [URL]: null
+2016-11-17 15:55:14,851 [qtp1546335363-4230] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110097_20161117142921 [URL]: null
+2016-11-17 15:56:15,814 [qtp1546335363-4233] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110097_20161117142921 [URL]: null
+2016-11-17 15:57:16,794 [qtp1546335363-4234] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110097_20161117142921 [URL]: null
+2016-11-17 15:58:17,747 [qtp1546335363-4235] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110097_20161117142921 [URL]: null
+2016-11-17 15:58:19,015 [qtp1546335363-4235] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: ffffffff-d9d9-8516-0bb7-778d1591e6ce
+2016-11-17 15:58:19,016 [qtp1546335363-4235] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.deviceId --> LivePlay.deviceId    VALUES: ffffffff-d9d9-8516-0bb7-778d1591e6ce --> ffffffff-d9d9-8516-0bb7-778d1591e6ce    MAPID: 
+2016-11-17 15:58:19,016 [qtp1546335363-4235] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 110195
+2016-11-17 15:58:19,016 [qtp1546335363-4235] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.viewerUid --> LivePlay.viewerUid    VALUES: 110195 --> 110195    MAPID: 
+2016-11-17 15:58:39,305 [qtp1546335363-4236] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: ffffffff-dd60-2903-ffff-ffffe56fc3e5
+2016-11-17 15:58:39,305 [qtp1546335363-4236] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.deviceId --> LivePlay.deviceId    VALUES: ffffffff-dd60-2903-ffff-ffffe56fc3e5 --> ffffffff-dd60-2903-ffff-ffffe56fc3e5    MAPID: 
+2016-11-17 15:58:39,305 [qtp1546335363-4236] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 110180
+2016-11-17 15:58:39,306 [qtp1546335363-4236] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.viewerUid --> LivePlay.viewerUid    VALUES: 110180 --> 110180    MAPID: 
+2016-11-17 15:58:39,428 [qtp1546335363-4235] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110129_20161117145140 [URL]: rtmp://192.168.1.25/slv
+2016-11-17 15:59:02,313 [qtp1546335363-4235] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: ffffffff-d9d9-8516-0bb7-778d1591e6ce
+2016-11-17 15:59:02,313 [qtp1546335363-4235] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.deviceId --> LivePlay.deviceId    VALUES: ffffffff-d9d9-8516-0bb7-778d1591e6ce --> ffffffff-d9d9-8516-0bb7-778d1591e6ce    MAPID: 
+2016-11-17 15:59:02,313 [qtp1546335363-4235] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 110195
+2016-11-17 15:59:02,313 [qtp1546335363-4235] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.viewerUid --> LivePlay.viewerUid    VALUES: 110195 --> 110195    MAPID: 
+2016-11-17 15:59:06,963 [qtp1546335363-4236] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: ffffffff-dd60-2903-ffff-ffffe56fc3e5
+2016-11-17 15:59:06,963 [qtp1546335363-4236] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.deviceId --> LivePlay.deviceId    VALUES: ffffffff-dd60-2903-ffff-ffffe56fc3e5 --> ffffffff-dd60-2903-ffff-ffffe56fc3e5    MAPID: 
+2016-11-17 15:59:06,963 [qtp1546335363-4236] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 110180
+2016-11-17 15:59:06,964 [qtp1546335363-4236] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.viewerUid --> LivePlay.viewerUid    VALUES: 110180 --> 110180    MAPID: 
+2016-11-17 15:59:18,678 [qtp1546335363-4237] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110097_20161117142921 [URL]: null
+2016-11-17 16:00:19,580 [qtp1546335363-4236] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110097_20161117142921 [URL]: null
+2016-11-17 16:01:20,468 [qtp1546335363-4238] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110097_20161117142921 [URL]: null
+2016-11-17 16:01:22,006 [qtp1546335363-4238] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePublish, Dest value: true
+2016-11-17 16:01:22,006 [qtp1546335363-4238] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePublishVO.execDvr --> LivePublish.execDvr    VALUES: true --> true    MAPID: 
+2016-11-17 16:01:22,531 [qtp1546335363-4239] INFO  [cn.com.conversant.swiftcoder.service.impl.CallbackServiceImpl] - [Start Publish #Step 1] Begin To Callback The API /v1/stream/status/callback [Stream]: 120010_20161117160121
+2016-11-17 16:01:22,543 [qtp1546335363-4239] INFO  [cn.com.conversant.swiftcoder.service.impl.CallbackServiceImpl] - [Start Publish #Step 2] Register The StreamName to Redis [Stream]: 120010_20161117160121
+2016-11-17 16:01:46,724 [qtp1546335363-4238] INFO  [cn.com.conversant.swiftcoder.service.impl.CallbackServiceImpl] - [Stop Publish #Step 1] Begin To Callback The API /v1/stream/status/callback [Stream]: 110161_20161117141300
+2016-11-17 16:01:48,259 [qtp1546335363-4238] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Finish Publish]: {"operation":4,"streamName":"110161_20161117141300"}
+2016-11-17 16:01:56,360 [qtp1546335363-4239] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: ffffffff-a771-e721-ffff-ffffeee2fdd1
+2016-11-17 16:01:56,361 [qtp1546335363-4239] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.deviceId --> LivePlay.deviceId    VALUES: ffffffff-a771-e721-ffff-ffffeee2fdd1 --> ffffffff-a771-e721-ffff-ffffeee2fdd1    MAPID: 
+2016-11-17 16:01:56,361 [qtp1546335363-4239] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 110161
+2016-11-17 16:01:56,361 [qtp1546335363-4239] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.viewerUid --> LivePlay.viewerUid    VALUES: 110161 --> 110161    MAPID: 
+2016-11-17 16:01:57,133 [qtp1546335363-4238] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 120010_20161117160121 [URL]: rtmp://192.168.1.25/slv
+2016-11-17 16:02:21,413 [qtp1546335363-4239] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110097_20161117142921 [URL]: null
+2016-11-17 16:03:22,309 [qtp1546335363-4241] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110097_20161117142921 [URL]: null
+2016-11-17 16:04:23,274 [qtp1546335363-4242] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110097_20161117142921 [URL]: null
+2016-11-17 16:05:24,184 [qtp1546335363-4243] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110097_20161117142921 [URL]: null
+2016-11-17 16:05:58,197 [qtp1546335363-4243] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: ffffffff-dcb1-1cc7-2b16-ef552975f2e9
+2016-11-17 16:05:58,198 [qtp1546335363-4243] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.deviceId --> LivePlay.deviceId    VALUES: ffffffff-dcb1-1cc7-2b16-ef552975f2e9 --> ffffffff-dcb1-1cc7-2b16-ef552975f2e9    MAPID: 
+2016-11-17 16:05:58,198 [qtp1546335363-4243] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 110161
+2016-11-17 16:05:58,198 [qtp1546335363-4243] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.viewerUid --> LivePlay.viewerUid    VALUES: 110161 --> 110161    MAPID: 
+2016-11-17 16:05:59,588 [qtp1546335363-4244] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 120010_20161117160121 [URL]: rtmp://192.168.1.25/slv
+2016-11-17 16:07:07,169 [qtp1546335363-4245] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 00000000-1c44-02ba-ffff-ffffe0ead357
+2016-11-17 16:07:07,170 [qtp1546335363-4245] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.deviceId --> LivePlay.deviceId    VALUES: 00000000-1c44-02ba-ffff-ffffe0ead357 --> 00000000-1c44-02ba-ffff-ffffe0ead357    MAPID: 
+2016-11-17 16:07:07,170 [qtp1546335363-4245] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 120004
+2016-11-17 16:07:07,170 [qtp1546335363-4245] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.viewerUid --> LivePlay.viewerUid    VALUES: 120004 --> 120004    MAPID: 
+2016-11-17 16:07:08,108 [qtp1546335363-4243] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110097_20161117142921 [URL]: null
+2016-11-17 16:07:17,228 [qtp1546335363-4243] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 00000000-1c44-02ba-ffff-ffffe0ead357
+2016-11-17 16:07:17,228 [qtp1546335363-4243] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.deviceId --> LivePlay.deviceId    VALUES: 00000000-1c44-02ba-ffff-ffffe0ead357 --> 00000000-1c44-02ba-ffff-ffffe0ead357    MAPID: 
+2016-11-17 16:07:17,229 [qtp1546335363-4243] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 120004
+2016-11-17 16:07:17,229 [qtp1546335363-4243] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.viewerUid --> LivePlay.viewerUid    VALUES: 120004 --> 120004    MAPID: 
+2016-11-17 16:07:32,339 [qtp1546335363-4243] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 00000000-1c44-02ba-ffff-ffffe0ead357
+2016-11-17 16:07:32,339 [qtp1546335363-4243] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.deviceId --> LivePlay.deviceId    VALUES: 00000000-1c44-02ba-ffff-ffffe0ead357 --> 00000000-1c44-02ba-ffff-ffffe0ead357    MAPID: 
+2016-11-17 16:07:32,339 [qtp1546335363-4243] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 120004
+2016-11-17 16:07:32,339 [qtp1546335363-4243] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.viewerUid --> LivePlay.viewerUid    VALUES: 120004 --> 120004    MAPID: 
+2016-11-17 16:07:32,606 [qtp1546335363-4246] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110188_20161114172036 [URL]: null
+2016-11-17 16:07:58,379 [qtp1546335363-4246] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 48CC5B89-79BD-4E47-B7CA-662A8DE30478
+2016-11-17 16:07:58,379 [qtp1546335363-4246] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.deviceId --> LivePlay.deviceId    VALUES: 48CC5B89-79BD-4E47-B7CA-662A8DE30478 --> 48CC5B89-79BD-4E47-B7CA-662A8DE30478    MAPID: 
+2016-11-17 16:07:58,379 [qtp1546335363-4246] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 110138
+2016-11-17 16:07:58,379 [qtp1546335363-4246] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.viewerUid --> LivePlay.viewerUid    VALUES: 110138 --> 110138    MAPID: 
+2016-11-17 16:07:58,484 [qtp1546335363-4243] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110097_20161117142921 [URL]: null
+2016-11-17 16:08:02,739 [qtp1546335363-4243] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 00000000-1c44-02ba-ffff-ffffe0ead357
+2016-11-17 16:08:02,739 [qtp1546335363-4243] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.deviceId --> LivePlay.deviceId    VALUES: 00000000-1c44-02ba-ffff-ffffe0ead357 --> 00000000-1c44-02ba-ffff-ffffe0ead357    MAPID: 
+2016-11-17 16:08:02,739 [qtp1546335363-4243] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 120004
+2016-11-17 16:08:02,739 [qtp1546335363-4243] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.viewerUid --> LivePlay.viewerUid    VALUES: 120004 --> 120004    MAPID: 
+2016-11-17 16:08:12,773 [qtp1546335363-4246] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: ffffffff-d9d9-8516-0bb7-778d1591e6ce
+2016-11-17 16:08:12,774 [qtp1546335363-4246] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.deviceId --> LivePlay.deviceId    VALUES: ffffffff-d9d9-8516-0bb7-778d1591e6ce --> ffffffff-d9d9-8516-0bb7-778d1591e6ce    MAPID: 
+2016-11-17 16:08:12,774 [qtp1546335363-4246] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 110146
+2016-11-17 16:08:12,774 [qtp1546335363-4246] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.viewerUid --> LivePlay.viewerUid    VALUES: 110146 --> 110146    MAPID: 
+2016-11-17 16:08:14,993 [qtp1546335363-4243] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110097_20161117142921 [URL]: null
+2016-11-17 16:08:18,249 [qtp1546335363-4243] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110129_20161117145140 [URL]: rtmp://192.168.1.25/slv
+2016-11-17 16:08:24,599 [qtp1546335363-4243] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: ffffffff-d9d9-8516-0bb7-778d1591e6ce
+2016-11-17 16:08:24,600 [qtp1546335363-4243] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.deviceId --> LivePlay.deviceId    VALUES: ffffffff-d9d9-8516-0bb7-778d1591e6ce --> ffffffff-d9d9-8516-0bb7-778d1591e6ce    MAPID: 
+2016-11-17 16:08:24,600 [qtp1546335363-4243] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 110146
+2016-11-17 16:08:24,600 [qtp1546335363-4243] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.viewerUid --> LivePlay.viewerUid    VALUES: 110146 --> 110146    MAPID: 
+2016-11-17 16:08:25,483 [qtp1546335363-4246] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110097_20161117142921 [URL]: null
+2016-11-17 16:08:46,757 [qtp1546335363-4243] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: ffffffff-d9d9-8516-0bb7-778d1591e6ce
+2016-11-17 16:08:46,757 [qtp1546335363-4243] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.deviceId --> LivePlay.deviceId    VALUES: ffffffff-d9d9-8516-0bb7-778d1591e6ce --> ffffffff-d9d9-8516-0bb7-778d1591e6ce    MAPID: 
+2016-11-17 16:08:46,757 [qtp1546335363-4243] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 110146
+2016-11-17 16:08:46,757 [qtp1546335363-4243] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.viewerUid --> LivePlay.viewerUid    VALUES: 110146 --> 110146    MAPID: 
+2016-11-17 16:09:13,837 [qtp1546335363-4247] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 00000000-1c44-02ba-ffff-ffffe0ead357
+2016-11-17 16:09:13,837 [qtp1546335363-4247] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.deviceId --> LivePlay.deviceId    VALUES: 00000000-1c44-02ba-ffff-ffffe0ead357 --> 00000000-1c44-02ba-ffff-ffffe0ead357    MAPID: 
+2016-11-17 16:09:13,837 [qtp1546335363-4247] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 120004
+2016-11-17 16:09:13,838 [qtp1546335363-4247] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.viewerUid --> LivePlay.viewerUid    VALUES: 120004 --> 120004    MAPID: 
+2016-11-17 16:09:15,011 [qtp1546335363-4243] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 652849B8-734F-4EDC-AF05-1831A9FD636A
+2016-11-17 16:09:15,011 [qtp1546335363-4243] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.deviceId --> LivePlay.deviceId    VALUES: 652849B8-734F-4EDC-AF05-1831A9FD636A --> 652849B8-734F-4EDC-AF05-1831A9FD636A    MAPID: 
+2016-11-17 16:09:15,011 [qtp1546335363-4243] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 110138
+2016-11-17 16:09:15,012 [qtp1546335363-4243] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.viewerUid --> LivePlay.viewerUid    VALUES: 110138 --> 110138    MAPID: 
+2016-11-17 16:09:15,164 [qtp1546335363-4247] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110097_20161117142921 [URL]: null
+2016-11-17 16:09:26,119 [qtp1546335363-4247] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110097_20161117142921 [URL]: null
+2016-11-17 16:21:01,085 [qtp1546335363-4257] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: ffffffff-c28d-c55d-a336-ec900f17c6f5
+2016-11-17 16:21:01,085 [qtp1546335363-4257] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.deviceId --> LivePlay.deviceId    VALUES: ffffffff-c28d-c55d-a336-ec900f17c6f5 --> ffffffff-c28d-c55d-a336-ec900f17c6f5    MAPID: 
+2016-11-17 16:21:01,086 [qtp1546335363-4257] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 110097
+2016-11-17 16:21:01,086 [qtp1546335363-4257] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.viewerUid --> LivePlay.viewerUid    VALUES: 110097 --> 110097    MAPID: 
+2016-11-17 16:21:35,148 [qtp1546335363-4259] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: ffffffff-c28d-c55d-a336-ec900f17c6f5
+2016-11-17 16:21:35,149 [qtp1546335363-4259] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.deviceId --> LivePlay.deviceId    VALUES: ffffffff-c28d-c55d-a336-ec900f17c6f5 --> ffffffff-c28d-c55d-a336-ec900f17c6f5    MAPID: 
+2016-11-17 16:21:35,149 [qtp1546335363-4259] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 110122
+2016-11-17 16:21:35,149 [qtp1546335363-4259] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.viewerUid --> LivePlay.viewerUid    VALUES: 110122 --> 110122    MAPID: 
+2016-11-17 16:21:46,342 [qtp1546335363-4257] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: ffffffff-dcb1-1cc7-2b16-ef552975f2e9
+2016-11-17 16:21:46,342 [qtp1546335363-4257] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.deviceId --> LivePlay.deviceId    VALUES: ffffffff-dcb1-1cc7-2b16-ef552975f2e9 --> ffffffff-dcb1-1cc7-2b16-ef552975f2e9    MAPID: 
+2016-11-17 16:21:46,342 [qtp1546335363-4257] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 110161
+2016-11-17 16:21:46,342 [qtp1546335363-4257] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.viewerUid --> LivePlay.viewerUid    VALUES: 110161 --> 110161    MAPID: 
+2016-11-17 16:21:47,597 [qtp1546335363-4259] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 120010_20161117160121 [URL]: rtmp://192.168.1.25/slv
+2016-11-17 16:28:40,934 [qtp1546335363-4263] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Finish Publish]: {"operation":4,"streamName":"110188_20161114172036"}
+2016-11-17 16:28:41,018 [qtp1546335363-4266] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePublish, Dest value: false
+2016-11-17 16:28:41,018 [qtp1546335363-4266] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePublishVO.execDvr --> LivePublish.execDvr    VALUES: false --> false    MAPID: 
+2016-11-17 16:31:33,470 [qtp1546335363-4269] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 00000000-3c66-e405-ffff-ffffa60ac1f5
+2016-11-17 16:31:33,470 [qtp1546335363-4269] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.deviceId --> LivePlay.deviceId    VALUES: 00000000-3c66-e405-ffff-ffffa60ac1f5 --> 00000000-3c66-e405-ffff-ffffa60ac1f5    MAPID: 
+2016-11-17 16:31:33,470 [qtp1546335363-4269] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 120006
+2016-11-17 16:31:33,471 [qtp1546335363-4269] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.viewerUid --> LivePlay.viewerUid    VALUES: 120006 --> 120006    MAPID: 
+2016-11-17 16:31:34,341 [qtp1546335363-4266] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 120010_20161117160121 [URL]: rtmp://192.168.1.25/slv
+2016-11-17 16:32:02,109 [qtp1546335363-4270] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 00000000-3c66-e405-ffff-ffffa60ac1f5
+2016-11-17 16:32:02,109 [qtp1546335363-4270] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.deviceId --> LivePlay.deviceId    VALUES: 00000000-3c66-e405-ffff-ffffa60ac1f5 --> 00000000-3c66-e405-ffff-ffffa60ac1f5    MAPID: 
+2016-11-17 16:32:02,109 [qtp1546335363-4270] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 120006
+2016-11-17 16:32:02,109 [qtp1546335363-4270] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.viewerUid --> LivePlay.viewerUid    VALUES: 120006 --> 120006    MAPID: 
+2016-11-17 16:32:02,381 [qtp1546335363-4269] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110188_20161117162831 [URL]: null
+2016-11-17 16:32:20,759 [qtp1546335363-4269] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 00000000-3c66-e405-ffff-ffffa60ac1f5
+2016-11-17 16:32:20,759 [qtp1546335363-4269] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.deviceId --> LivePlay.deviceId    VALUES: 00000000-3c66-e405-ffff-ffffa60ac1f5 --> 00000000-3c66-e405-ffff-ffffa60ac1f5    MAPID: 
+2016-11-17 16:32:20,759 [qtp1546335363-4269] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 120006
+2016-11-17 16:32:20,759 [qtp1546335363-4269] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.viewerUid --> LivePlay.viewerUid    VALUES: 120006 --> 120006    MAPID: 
+2016-11-17 16:32:37,558 [qtp1546335363-4269] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 00000000-3c66-e405-ffff-ffffa60ac1f5
+2016-11-17 16:32:37,558 [qtp1546335363-4269] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.deviceId --> LivePlay.deviceId    VALUES: 00000000-3c66-e405-ffff-ffffa60ac1f5 --> 00000000-3c66-e405-ffff-ffffa60ac1f5    MAPID: 
+2016-11-17 16:32:37,559 [qtp1546335363-4269] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 120006
+2016-11-17 16:32:37,559 [qtp1546335363-4269] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.viewerUid --> LivePlay.viewerUid    VALUES: 120006 --> 120006    MAPID: 
+2016-11-17 16:32:38,962 [qtp1546335363-4270] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110097_20161117142921 [URL]: null
+2016-11-17 16:34:33,870 [qtp1546335363-4272] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110097_20161117142921 [URL]: null
+2016-11-17 16:34:44,702 [qtp1546335363-4272] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: ffffffff-a771-e721-ffff-ffffeee2fdd1
+2016-11-17 16:34:44,702 [qtp1546335363-4272] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.deviceId --> LivePlay.deviceId    VALUES: ffffffff-a771-e721-ffff-ffffeee2fdd1 --> ffffffff-a771-e721-ffff-ffffeee2fdd1    MAPID: 
+2016-11-17 16:34:44,703 [qtp1546335363-4272] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 110161
+2016-11-17 16:34:44,703 [qtp1546335363-4272] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.viewerUid --> LivePlay.viewerUid    VALUES: 110161 --> 110161    MAPID: 
+2016-11-17 16:34:45,301 [qtp1546335363-4269] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 120010_20161117160121 [URL]: rtmp://192.168.1.25/slv
+2016-11-17 16:34:51,851 [qtp1546335363-4272] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: ffffffff-dcb1-1cc7-2b16-ef552975f2e9
+2016-11-17 16:34:51,851 [qtp1546335363-4272] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.deviceId --> LivePlay.deviceId    VALUES: ffffffff-dcb1-1cc7-2b16-ef552975f2e9 --> ffffffff-dcb1-1cc7-2b16-ef552975f2e9    MAPID: 
+2016-11-17 16:34:51,852 [qtp1546335363-4272] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 110161
+2016-11-17 16:34:51,852 [qtp1546335363-4272] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.viewerUid --> LivePlay.viewerUid    VALUES: 110161 --> 110161    MAPID: 
+2016-11-17 16:34:53,075 [qtp1546335363-4273] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 120010_20161117160121 [URL]: rtmp://192.168.1.25/slv
+2016-11-17 16:35:44,985 [qtp1546335363-4273] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110097_20161117142921 [URL]: null
+2016-11-17 16:36:55,443 [qtp1546335363-4272] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110097_20161117142921 [URL]: null
+2016-11-17 16:37:57,796 [qtp1546335363-4274] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 120010_20161117160121 [URL]: rtmp://192.168.1.25/slv
+2016-11-17 16:38:05,814 [qtp1546335363-4275] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110097_20161117142921 [URL]: null
+2016-11-17 16:39:02,109 [qtp1546335363-4275] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: AD5A6254-5DF6-4D9D-9771-06743F893ECF
+2016-11-17 16:39:02,109 [qtp1546335363-4275] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.deviceId --> LivePlay.deviceId    VALUES: AD5A6254-5DF6-4D9D-9771-06743F893ECF --> AD5A6254-5DF6-4D9D-9771-06743F893ECF    MAPID: 
+2016-11-17 16:39:02,110 [qtp1546335363-4275] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 110138
+2016-11-17 16:39:02,110 [qtp1546335363-4275] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.viewerUid --> LivePlay.viewerUid    VALUES: 110138 --> 110138    MAPID: 
+2016-11-17 16:39:02,209 [qtp1546335363-4276] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110188_20161117162831 [URL]: null
+2016-11-17 16:39:16,477 [qtp1546335363-4276] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110097_20161117142921 [URL]: null
+2016-11-17 16:39:20,839 [qtp1546335363-4276] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: CBC844A9-9F14-47F1-B094-5DF1BB0F26B3
+2016-11-17 16:39:20,840 [qtp1546335363-4276] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.deviceId --> LivePlay.deviceId    VALUES: CBC844A9-9F14-47F1-B094-5DF1BB0F26B3 --> CBC844A9-9F14-47F1-B094-5DF1BB0F26B3    MAPID: 
+2016-11-17 16:39:20,840 [qtp1546335363-4276] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 110138
+2016-11-17 16:39:20,840 [qtp1546335363-4276] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.viewerUid --> LivePlay.viewerUid    VALUES: 110138 --> 110138    MAPID: 
+2016-11-17 16:39:20,936 [qtp1546335363-4277] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 120010_20161117160121 [URL]: rtmp://192.168.1.25/slv
+2016-11-17 16:40:27,315 [qtp1546335363-4276] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110097_20161117142921 [URL]: null
+2016-11-17 16:41:39,915 [qtp1546335363-4278] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePublish, Dest value: true
+2016-11-17 16:41:39,916 [qtp1546335363-4278] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePublishVO.execDvr --> LivePublish.execDvr    VALUES: true --> true    MAPID: 
+2016-11-17 16:41:40,829 [qtp1546335363-4279] INFO  [cn.com.conversant.swiftcoder.service.impl.CallbackServiceImpl] - [Start Publish #Step 1] Begin To Callback The API /v1/stream/status/callback [Stream]: 120006_20161117164139
+2016-11-17 16:41:40,842 [qtp1546335363-4279] INFO  [cn.com.conversant.swiftcoder.service.impl.CallbackServiceImpl] - [Start Publish #Step 2] Register The StreamName to Redis [Stream]: 120006_20161117164139
+2016-11-17 16:41:47,851 [qtp1546335363-4279] INFO  [cn.com.conversant.swiftcoder.service.impl.CallbackServiceImpl] - [Stop Publish #Step 1] Begin To Callback The API /v1/stream/status/callback [Stream]: 120006_20161117164139
+2016-11-17 16:44:05,842 [qtp1546335363-4280] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Finish Publish]: {"operation":4,"streamName":"110097_20161117142921"}
+2016-11-17 16:44:06,032 [qtp1546335363-4281] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePublish, Dest value: true
+2016-11-17 16:44:06,032 [qtp1546335363-4281] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePublishVO.execDvr --> LivePublish.execDvr    VALUES: true --> true    MAPID: 
+2016-11-17 16:44:08,323 [qtp1546335363-4280] INFO  [cn.com.conversant.swiftcoder.service.impl.CallbackServiceImpl] - [Start Publish #Step 1] Begin To Callback The API /v1/stream/status/callback [Stream]: 110097_20161117164406
+2016-11-17 16:44:08,336 [qtp1546335363-4280] INFO  [cn.com.conversant.swiftcoder.service.impl.CallbackServiceImpl] - [Start Publish #Step 2] Register The StreamName to Redis [Stream]: 110097_20161117164406
+2016-11-17 16:44:16,129 [qtp1546335363-4281] INFO  [cn.com.conversant.swiftcoder.service.impl.CallbackServiceImpl] - [Stop Publish #Step 1] Begin To Callback The API /v1/stream/status/callback [Stream]: 110097_20161117164406
+2016-11-17 16:45:18,659 [qtp1546335363-4283] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Finish Publish]: {"operation":4,"streamName":"120006_20161117164139"}
+2016-11-17 16:46:52,417 [qtp1546335363-4285] INFO  [cn.com.conversant.swiftcoder.service.impl.CallbackServiceImpl] - [Start Publish #Step 1] Begin To Callback The API /v1/stream/status/callback [Stream]: 110097_20161117164406
+2016-11-17 16:46:52,429 [qtp1546335363-4285] INFO  [cn.com.conversant.swiftcoder.service.impl.CallbackServiceImpl] - [Start Publish #Step 2] Register The StreamName to Redis [Stream]: 110097_20161117164406
+2016-11-17 16:47:17,150 [qtp1546335363-4286] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Finish Publish]: {"operation":4,"streamName":"120006_20161117164139"}
+2016-11-17 16:48:04,799 [qtp1546335363-4286] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: ffffffff-b698-249f-0ef8-decf2be1979b
+2016-11-17 16:48:04,799 [qtp1546335363-4286] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.deviceId --> LivePlay.deviceId    VALUES: ffffffff-b698-249f-0ef8-decf2be1979b --> ffffffff-b698-249f-0ef8-decf2be1979b    MAPID: 
+2016-11-17 16:48:04,799 [qtp1546335363-4286] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 110122
+2016-11-17 16:48:04,799 [qtp1546335363-4286] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.viewerUid --> LivePlay.viewerUid    VALUES: 110122 --> 110122    MAPID: 
+2016-11-17 16:48:05,557 [qtp1546335363-4288] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110097_20161117164406 [URL]: rtmp://192.168.1.25/slv
+2016-11-17 16:57:10,338 [qtp1546335363-4296] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 120010_20161117160121 [URL]: rtmp://192.168.1.25/slv
+2016-11-17 17:09:09,479 [qtp1546335363-4307] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: ffffffff-892e-6571-b6af-12a3155ada8b
+2016-11-17 17:09:09,479 [qtp1546335363-4307] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.deviceId --> LivePlay.deviceId    VALUES: ffffffff-892e-6571-b6af-12a3155ada8b --> ffffffff-892e-6571-b6af-12a3155ada8b    MAPID: 
+2016-11-17 17:09:09,480 [qtp1546335363-4307] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 110149
+2016-11-17 17:09:09,480 [qtp1546335363-4307] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.viewerUid --> LivePlay.viewerUid    VALUES: 110149 --> 110149    MAPID: 
+2016-11-17 17:09:10,024 [qtp1546335363-4308] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110097_20161117164406 [URL]: rtmp://192.168.1.25/slv
+2016-11-17 17:12:05,991 [qtp1546335363-4309] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: ffffffff-dcb1-1cc7-2b16-ef552975f2e9
+2016-11-17 17:12:05,992 [qtp1546335363-4309] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.deviceId --> LivePlay.deviceId    VALUES: ffffffff-dcb1-1cc7-2b16-ef552975f2e9 --> ffffffff-dcb1-1cc7-2b16-ef552975f2e9    MAPID: 
+2016-11-17 17:12:05,992 [qtp1546335363-4309] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 110161
+2016-11-17 17:12:05,992 [qtp1546335363-4309] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.viewerUid --> LivePlay.viewerUid    VALUES: 110161 --> 110161    MAPID: 
+2016-11-17 17:12:07,286 [qtp1546335363-4311] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 120010_20161117160121 [URL]: rtmp://192.168.1.25/slv
+2016-11-17 17:17:53,130 [qtp1546335363-4315] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 00000000-1c44-02ba-ffff-ffffe0ead357
+2016-11-17 17:17:53,130 [qtp1546335363-4315] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.deviceId --> LivePlay.deviceId    VALUES: 00000000-1c44-02ba-ffff-ffffe0ead357 --> 00000000-1c44-02ba-ffff-ffffe0ead357    MAPID: 
+2016-11-17 17:17:53,131 [qtp1546335363-4315] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 120004
+2016-11-17 17:17:53,131 [qtp1546335363-4315] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.viewerUid --> LivePlay.viewerUid    VALUES: 120004 --> 120004    MAPID: 
+2016-11-17 17:17:53,653 [qtp1546335363-4316] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 120010_20161117160121 [URL]: rtmp://192.168.1.25/slv
+2016-11-17 17:22:50,642 [qtp1546335363-4320] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: ffffffff-892e-6571-b6af-12a3155ada8b
+2016-11-17 17:22:50,642 [qtp1546335363-4320] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.deviceId --> LivePlay.deviceId    VALUES: ffffffff-892e-6571-b6af-12a3155ada8b --> ffffffff-892e-6571-b6af-12a3155ada8b    MAPID: 
+2016-11-17 17:22:50,642 [qtp1546335363-4320] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 110149
+2016-11-17 17:22:50,643 [qtp1546335363-4320] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.viewerUid --> LivePlay.viewerUid    VALUES: 110149 --> 110149    MAPID: 
+2016-11-17 17:22:51,246 [qtp1546335363-4321] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110097_20161117164406 [URL]: rtmp://192.168.1.25/slv
+2016-11-17 17:26:54,029 [qtp1546335363-4324] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 3E288DC9-5A85-47D3-B282-FF057C1107A4
+2016-11-17 17:26:54,030 [qtp1546335363-4324] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.deviceId --> LivePlay.deviceId    VALUES: 3E288DC9-5A85-47D3-B282-FF057C1107A4 --> 3E288DC9-5A85-47D3-B282-FF057C1107A4    MAPID: 
+2016-11-17 17:26:54,030 [qtp1546335363-4324] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 110138
+2016-11-17 17:26:54,030 [qtp1546335363-4324] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.viewerUid --> LivePlay.viewerUid    VALUES: 110138 --> 110138    MAPID: 
+2016-11-17 17:26:54,166 [qtp1546335363-4325] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110129_20161117145140 [URL]: rtmp://192.168.1.25/slv
+2016-11-17 17:28:18,000 [qtp1546335363-4324] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: ffffffff-892e-6571-b6af-12a3155ada8b
+2016-11-17 17:28:18,000 [qtp1546335363-4324] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.deviceId --> LivePlay.deviceId    VALUES: ffffffff-892e-6571-b6af-12a3155ada8b --> ffffffff-892e-6571-b6af-12a3155ada8b    MAPID: 
+2016-11-17 17:28:18,000 [qtp1546335363-4324] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 110149
+2016-11-17 17:28:18,000 [qtp1546335363-4324] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.viewerUid --> LivePlay.viewerUid    VALUES: 110149 --> 110149    MAPID: 
+2016-11-17 17:28:18,495 [qtp1546335363-4326] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110097_20161117164406 [URL]: rtmp://192.168.1.25/slv
+2016-11-17 17:45:48,375 [qtp1546335363-4342] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: ffffffff-892e-6571-b6af-12a3155ada8b
+2016-11-17 17:45:48,375 [qtp1546335363-4342] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.deviceId --> LivePlay.deviceId    VALUES: ffffffff-892e-6571-b6af-12a3155ada8b --> ffffffff-892e-6571-b6af-12a3155ada8b    MAPID: 
+2016-11-17 17:45:48,375 [qtp1546335363-4342] DEBUG [org.dozer.fieldmap.FieldMap] - Getting ready to invoke write method on the destination object. Dest Obj: LivePlay, Dest value: 110149
+2016-11-17 17:45:48,375 [qtp1546335363-4342] DEBUG [org.dozer.MappingProcessor] - MAPPED: PrePlayVO.viewerUid --> LivePlay.viewerUid    VALUES: 110149 --> 110149    MAPID: 
+2016-11-17 17:45:49,147 [qtp1546335363-4343] INFO  [cn.com.conversant.swiftcoder.controller.SrsController] - [Play Redirect] [Stream]: 110097_20161117164406 [URL]: rtmp://192.168.1.25/slv
