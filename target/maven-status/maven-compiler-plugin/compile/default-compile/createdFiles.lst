@@ -6,8 +6,10 @@ my\first\sql\JavaSparkSQLExample$Person.class
 my\first\JavaWordCount.class
 my\first\JavaLogQuery$1.class
 my\first\JavaWordCount$3.class
+my\first\sql\MySparkSQL.class
 my\first\JavaPageRank$4.class
 my\first\sql\JavaSparkSQLExample.class
+my\first\sql\hive\MySparkHive.class
 my\first\JavaLogQuery.class
 my\first\sql\JavaSparkSQLExample$3.class
 my\first\WordCount.class
