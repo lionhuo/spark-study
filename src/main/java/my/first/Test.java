@@ -29,5 +29,7 @@ public class Test {
             "^([\\d.]+) (\\S+) (\\S+) \\[([\\w\\d:/]+\\s[+\\-]\\d{4})\\] \"(.+?)\" (\\d{3}) ([\\d\\-]+) \"([^\"]+)\" \"([^\"]+)\".*");
 
     public static void main(String[] args) {
+        String log = "2016-11-17 16:44:08,323 [qtp1546335363-4280] INFO [cn.com.conversant.swiftcoder.service.impl.CallbackServiceImpl] - [Start Publish #Step 1] Begin To Callback The API /v1/stream/status/callback [Stream]:   110097_20161117164406";
+        System.out.println(log.substring(log.lastIndexOf(" ") + 1));
     }
 }
