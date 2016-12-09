@@ -9,4 +9,5 @@ derby.log
 *.crc
 *.parquet
 data/test_table/key=1/_SUCCESS
-*.class
+target/
+data/
